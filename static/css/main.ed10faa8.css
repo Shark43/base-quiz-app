@@ -1,0 +1,2 @@
+.App{padding:20px;text-align:center}.question-container{align-items:center;display:flex;flex-direction:column;margin-top:20px}.image-container{margin-bottom:20px}.button-container{display:flex;justify-content:space-between;margin-top:20px}.button-container button:first-child{margin-right:10px}@media (min-width:768px){.question-container{flex-direction:row}.answer-container,.image-container{flex-basis:50%}}.vertical-list-item{display:flex;flex-direction:column}
+/*# sourceMappingURL=main.ed10faa8.css.map*/
