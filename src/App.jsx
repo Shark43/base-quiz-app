@@ -3,6 +3,120 @@ import { Typography } from '@material-ui/core';
 import './App.css';
 import QuestionContainer from './QuestionContainer';
 
+const cap3 = [
+  {
+      'name' : 'Villaggio di New Lanark',
+      'author' : 'Robert Owen',
+      'date' : '1818',
+      'place' : 'Scozia',
+      'context' : 'Citta dellutopia',
+      'image' : 'https://www.newlanark.org/images/Watercolour_by_John_Winning_circa_1818.jpg'
+  },
+  {
+      'name' : 'Villaggio di New Armony',
+      'author' : 'Robert Owen',
+      'date' : '1898',
+      'place' : 'Scozia',
+      'context' : 'Citta dellutopia',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/New_Harmony%2C_Indiana%2C_por_F._Bates.jpg/800px-New_Harmony%2C_Indiana%2C_por_F._Bates.jpg'
+  },
+  {
+      'name' : 'Villaggio di New Lanark',
+      'author' : 'Robert Owen',
+      'date' : '1818',
+      'place' : 'USA',
+      'context' : 'Citta dellutopia',
+      'image' : 'https://www.newlanark.org/images/Watercolour_by_John_Winning_circa_1818.jpg'
+  },
+  {
+      'name' : 'Falansterio',
+      'author' : 'Fourier',
+      'date' : '1830',
+      'place' : 'Francia',
+      'context' : 'Citta dellutopia',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Phalanstère.jpg'
+  },
+  {
+      'name' : 'Saltaire',
+      'author' : 'Salt',
+      'date' : '1850',
+      'place' : 'Bratford',
+      'context' : 'Città industriali',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/8/8f/Saltaire_from_Leeds_and_Liverpool_Canal.jpg'
+  },
+  {
+      'name' : 'Villaggio Krupp',
+      'author' : '',
+      'date' : '1870',
+      'place' : 'Germania',
+      'context' : 'Città industriali',
+      'image' : 'https://www.researchgate.net/profile/Edgar-Adams/publication/333430478/figure/fig2/AS:763572162408449@1559061198136/Krupp-worker-village-at-Essen-Germany.pbm'
+  },
+  {
+      'name' : 'Villaggio Crespi dAdda',
+      'author' : '',
+      'date' : '1875',
+      'place' : 'Bergamo',
+      'context' : 'Città industriali',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/architecture/2020/12/04/crespi-dadda/domus_crespi_dadda_7.jpg.foto.rmedium.jpg'
+  },
+  {
+      'name' : 'Villaggio Leumann',
+      'author' : '',
+      'date' : '1875',
+      'place' : 'Torino',
+      'context' : 'Città industriali',
+      'image' : 'https://www.piemonteitalia.eu/sites/default/files/styles/ingrandimento/public/curiosita/immagini/LEUMANN.jpg?itok=AJMahd8A'
+  },
+  {
+      'name' : 'Piano Haussmann',
+      'author' : 'Haussmann',
+      'date' : '1850-1870',
+      'place' : 'Parigi',
+      'context' : 'Progettazione città',
+      'image' : 'https://c8.alamy.com/compit/ff7y88/parigi-piano-di-haussmann-nil-piano-di-parigi-francia-c1870-mostrando-georges-eug-ne-boulevard-haussman-sovrapposti-in-nero-pesante-ff7y88.jpg'
+  },
+  {
+      'name' : 'Ringstrasse',
+      'author' : 'J. e C. Walker',
+      'date' : '1858',
+      'place' : 'Vienna',
+      'context' : 'Città progettata',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wien1858.jpg/1200px-Wien1858.jpg'
+  },
+  {
+      'name' : 'Plan Cerdà',
+      'author' : 'Cerdà',
+      'date' : '1860',
+      'place' : 'Barcellona',
+      'context' : 'Città progettata',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/PlaCerda1859b.jpg/1200px-PlaCerda1859b.jpg'
+  },
+  {
+      'name' : 'Ciudad Lineal',
+      'author' : 'Soria y Mata',
+      'date' : '1882',
+      'place' : 'Madrid',
+      'context' : 'Città progettata',
+      'image' : 'https://www.politico.eu/wp-content/uploads/2022/09/28/019-ciudad-lineal-de-madrid1.jpg'
+  },
+  {
+      'name' : 'Three magnets',
+      'author' : 'Howard',
+      'date' : '1898',
+      'place' : 'Inghilterra',
+      'context' : 'Precursore città giardino',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/5/55/Howard-three-magnets.png'
+  },
+  {
+      'name' : 'Garden city',
+      'author' : 'Howard',
+      'date' : '1898',
+      'place' : 'Inghilterra',
+      'context' : 'Precursore città giardino',
+      'image' : 'https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fjhgizg0rkij51.png'
+  },
+];
 
 const cap2 = [
   {
@@ -252,6 +366,7 @@ const cap2 = [
 ];
 
 const questions = [
+  ...cap3,
   ...cap2
 ]
 /*[
