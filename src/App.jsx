@@ -6,6 +6,13 @@ import QuestionContainer from './QuestionContainer';
 
 const cap2 = [
   {
+    'name': 'The Grammar of Ornament',
+    'author': 'Owen Jones',
+    'date': '1856',
+    'context': 'Eclettismo',
+    'image': 'https://www.meisterdrucke.uk/kunstwerke/1260px/Owen%20Jones%20-%20Moresque%20No%204%20Plate%20XLII%20from%20The%20Grammar%20of%20Ornament%20by%20Owe%20-%20%28MeisterDrucke-222252%29.jpg'
+  },
+  {
     'name': 'Mercato coperto',
     'author': 'Viollet le Duc',
     'date': '1863',
@@ -25,13 +32,6 @@ const cap2 = [
     'date': '1747',
     'context': 'Eclettismo',
     'image': 'https://www.goticomania.it/wp-content/uploads/2017/01/Strawberry-Hill-galleria.jpg'
-  },
-  {
-    'name': 'The Grammar of Ornament',
-    'author': 'Owen Jones',
-    'date': '1856',
-    'context': 'Eclettismo',
-    'image': 'https://www.meisterdrucke.uk/kunstwerke/1260px/Owen%20Jones%20-%20Moresque%20No%204%20Plate%20XLII%20from%20The%20Grammar%20of%20Ornament%20by%20Owe%20-%20%28MeisterDrucke-222252%29.jpg'
   },
   {
     'name': 'St. Giles di Cheadle',
