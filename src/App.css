@@ -38,7 +38,7 @@
   }
 }
 
-.correct-answers {
+.vertical-list-item {
   display: flex;
   flex-direction: column;
 }
