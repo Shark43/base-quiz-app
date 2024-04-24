@@ -72,7 +72,7 @@ function AnswerInput({ question, onNextQuestion }) {
         </Grid>
       </Box>}
       {showCorrectAnswers && (
-        <CorrectAnswers correctAnswers={question} />
+        <CorrectAnswers correctAnswers={question} userAnswers={userAnswers}/>
       )}
 
       <Grid item xs={12}>
