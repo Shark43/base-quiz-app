@@ -10,7 +10,7 @@ const cap2 = [
     'author': "Seroux d'Agincourt",
     'date': '1808',
     'context': 'Classicismo',
-    'image': 'https://www.researchgate.net/figure/Jean-Baptiste-Louis-George-Seroux-dAgincourt-Histoire-de-lArt-par-les-Monumens_fig2_306102997'
+    'image': 'https://www.researchgate.net/profile/Francesca-Mattei/publication/306102997/figure/fig2/AS:669388399190018@1536606039043/Jean-Baptiste-Louis-George-Seroux-dAgincourt-Histoire-de-lArt-par-les-Monumens.ppm'
   },
   {
     'name': 'Strawberry Hill',
