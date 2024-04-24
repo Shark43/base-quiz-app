@@ -10,6 +10,7 @@ function AnswerInput({ question, onNextQuestion }) {
     author: '',
     date: '',
     context: '',
+    place: ''
   });
 
   const [showCorrectAnswers, setShowCorrectAnswers] = useState(false);
@@ -59,6 +60,14 @@ function AnswerInput({ question, onNextQuestion }) {
             label="Contesto"
             value={userAnswers.context}
             onChange={(event) => handleAnswerChange(event, 'context')}
+          />
+        </Grid>
+        <Grid item xs={6}>
+          <TextField
+            fullWidth
+            label="Posto"
+            value={userAnswers.place}
+            onChange={(event) => handleAnswerChange(event, 'place')}
           />
         </Grid>
       </Box>}
