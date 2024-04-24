@@ -11,7 +11,7 @@ function CorrectAnswers({ correctAnswers }) {
         <li>Autore: {correctAnswers.author}</li>
         <li>Data: {correctAnswers.date}</li>
         <li>Contesto: {correctAnswers.context}</li>
-        <li>Posto: {correctAnswers.place}</li>
+        <li>Posto: {correctAnswers.place ? correctAnswers.place : '-'}</li>
       </ul>
     </Box>
   );
