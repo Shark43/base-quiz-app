@@ -37,3 +37,8 @@
     flex-basis: 50%;
   }
 }
+
+.correct-answers {
+  display: flex;
+  flex-direction: column;
+}
