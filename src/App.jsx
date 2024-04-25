@@ -365,9 +365,222 @@ const cap2 = [
 
 ];
 
+const cap4 = [
+  {
+      'name' : 'Brevetto casa ballon frame',
+      'author' : '',
+      'date' : '',
+      'place' : 'USA',
+      'context' : 'Costruzioni americane',
+      'image' : 'https://lh3.googleusercontent.com/proxy/RD5ie5-nxUVC3XSywAX-nHmfrukDFK-Wzz2RHHpSAN209zZvjEEOZ89q_XCk7vbSsGMkM0zrwI1Cw2EJurpXD1cdoKr4menbNRqlQj_Tz0dTcaHKHKprNk-yfudqtF_7nNq2hAatOeCs'
+  },
+  {
+      'name' : 'Edificio in Canal street',
+      'author' : '',
+      'date' : '1856',
+      'place' : 'New York',
+      'context' : 'Primi edifici alti',
+      'image' : 'https://images1.loopnet.com/i2/uUfVwT0a5it5znrerP67hv11M7XVrzPOqH3yvAqfg9Y/110/254-260-Canal-St-New-York-NY-Primary-Photo-1-Large.jpg'
+  },
+  {
+      'name' : 'Sede editore Harpers and brothers',
+      'author' : 'Bogardus',
+      'date' : '1855',
+      'place' : 'New York',
+      'context' : 'Primi edifici alti',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVUdxjs7fcfQWByzUjAuWmEaG0xmZlWOivjQ&usqp=CAU'
+  },
+  {
+      'name' : 'Victorian cottage residence',
+      'author' : 'Downing',
+      'date' : '1842',
+      'place' : 'USA',
+      'context' : 'Case vittoriane',
+      'image' : 'https://l450v.alamy.com/450v/p5tjhd/na-english-andrew-jackson-downing-italian-style-1850-cottage-residence-book-1850-andrew-jackson-downing-325-charles-dodge-estate-mansion-show-side-influence-2-luther-briggs-p5tjhd.jpg'
+  },
+  {
+      'name' : 'Mappa central park',
+      'author' : 'Vaux e Olmsted',
+      'date' : '1870',
+      'place' : 'New York',
+      'context' : 'Park Movement',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/1868_Vaux_%5E_Olmsted_Map_of_Central_Park%2C_New_York_City_-_Geographicus_-_CentralPark-CentralPark-1869.jpg/1200px-1868_Vaux_%5E_Olmsted_Map_of_Central_Park%2C_New_York_City_-_Geographicus_-_CentralPark-CentralPark-1869.jpg'
+  },
+  {
+      'name' : 'Boston public library',
+      'author' : 'McKim Mead e White',
+      'date' : '1890',
+      'place' : 'Boston',
+      'context' : 'City beautiful movement',
+      'image' : 'https://cdn.britannica.com/32/182932-050-0F6855E5/Boston-Public-Library-McKim-Building-Charles-Follen.jpg'
+  },
+  {
+      'name' : 'First leiter building',
+      'author' : 'Jenney',
+      'date' : '1880',
+      'place' : 'USA',
+      'context' : 'Edifici alti chicago',
+      'image' : 'https://time.graphics/uploadedFiles/500/4e/21/4e21847f969717719e02c596ed5c4966.jpg'
+  },
+  {
+      'name' : 'Manhattan building',
+      'author' : 'Jenney',
+      'date' : '1889',
+      'place' : 'Chicago',
+      'context' : 'Edifici alti chicago',
+      'image' : 'https://www.dreamtown.com/assets/img/buildings/main/manhattan-building.jpg'
+  },
+  {
+      'name' : 'Fair building',
+      'author' : 'Jenney',
+      'date' : '1891',
+      'place' : 'Chicago',
+      'context' : 'Edifici alti',
+      'image' : 'https://time.graphics/uploadedFiles/500/f4/ab/f4abcf5a98482fc7c8920d84105104b6.jpg'
+  },
+  {
+      'name' : 'Monadnok building',
+      'author' : 'Burnham e Root',
+      'date' : '1891',
+      'place' : 'Chicago',
+      'context' : 'Edifici alti',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Monadnock.jpg'
+  },
+  {
+      'name' : 'Marhall Fields',
+      'author' : 'Richardson',
+      'date' : '1885',
+      'place' : 'Chicago',
+      'context' : 'Edifici alti',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/2/28/Marshall_Field_Warehouse_Store.jpg'
+  },
+  {
+      'name' : 'Auditorium chicago',
+      'author' : 'Sullivan e Adler',
+      'date' : '1886',
+      'place' : 'Chicago',
+      'context' : 'Edifici alti',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Auditorium_Building_Chicago_June_30%2C_2012-92.jpg/325px-Auditorium_Building_Chicago_June_30%2C_2012-92.jpg'
+  },
+  {
+      'name' : 'Guaranty Building',
+      'author' : 'Sullivan e Adler',
+      'date' : '1894',
+      'place' : 'New York',
+      'context' : 'Edifici alti',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Guaranty_%28Prudential%29_Building%2C_Church_Street_and_Pearl_Street%2C_Buffalo%2C_NY_-_52674539907.jpg/1200px-Guaranty_%28Prudential%29_Building%2C_Church_Street_and_Pearl_Street%2C_Buffalo%2C_NY_-_52674539907.jpg'
+  },
+  {
+      'name' : 'Grand basin',
+      'author' : '',
+      'date' : '1893',
+      'place' : 'Chicago',
+      'context' : 'Chicago fair',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/0/06/Looking_West_From_Peristyle%2C_Court_of_Honor_and_Grand_Basin%2C_1893.jpg'
+  },
+  {
+      'name' : 'Masonic temple',
+      'author' : 'Burnham',
+      'date' : '1890',
+      'place' : 'Chicago',
+      'context' : 'Edifici alti',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbDu4yM_XjByX0CqESQCEfCY6zeS7SfiJfnQ&usqp=CAU'
+  },
+  {
+      'name' : 'Watts sherman house',
+      'author' : 'Richardson',
+      'date' : '1875',
+      'place' : 'USA',
+      'context' : 'Shingle style',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/e/e1/William_Watts_Sherman_House_2018.jpg'
+  },
+  {
+      'name' : 'Low house',
+      'author' : 'McKim Mead White',
+      'date' : '1886',
+      'place' : 'Bristol',
+      'context' : 'Shingle style',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/LowHouseBristolRI.jpg/640px-LowHouseBristolRI.jpg'
+  },
+  {
+      'name' : 'Casa studio Oak Park',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1889',
+      'place' : 'Illinois',
+      'context' : 'Praire House',
+      'image' : 'https://www.viaggiarecongusto.it/wp-content/uploads/2018/01/casa-e-studio-Wright.jpg'
+  },
+  {
+      'name' : 'Winslow house',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1893',
+      'place' : 'Illinois',
+      'context' : '',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/1/1f/William_H._Winslow_House_Front_Facade.jpg'
+  },
+  {
+      'name' : 'Home in a prairie town',
+      'author' : '',
+      'date' : '1901',
+      'place' : 'USA',
+      'context' : 'Praire House',
+      'image' : 'https://www.researchgate.net/publication/352322046/figure/fig4/AS:11431281103434841@1669685103162/Image-from-the-article-A-Home-in-a-Prairie-Town-by-Frank-Lloyd-Wright-Ladies-Home_Q320.jpg'
+  },
+  {
+      'name' : 'Ward Willits House',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1902',
+      'place' : 'Highland Park USA',
+      'context' : 'Praire House',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/9/91/Willits_House.jpg'
+  },
+  {
+      'name' : 'Robie House',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1910',
+      'place' : 'Chicago',
+      'context' : 'Praire House',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Frederick_C._Robie_House.JPG/1200px-Frederick_C._Robie_House.JPG'
+  },
+  {
+      'name' : 'Unity temple',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1905',
+      'place' : 'Oak Park',
+      'context' : 'Edifici pubblici',
+      'image' : 'https://www.metalocus.es/sites/default/files/styles/mopis_fullslider_desktop/public/lead-images/metalocus_flwright_unity-temple_02_tomrossiter_p.jpg?itok=whhMYzBv'
+  },
+  {
+      'name' : 'Mission Chair',
+      'author' : '',
+      'date' : '1910',
+      'place' : '',
+      'context' : 'Praire House',
+      'image' : 'https://i.ebayimg.com/images/g/jDcAAOSw2jZj9~dt/s-l400.jpg'
+  },
+  {
+      'name' : 'Robie House',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1910',
+      'place' : 'Chicago',
+      'context' : 'Praire House',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/architecture/gallery/2023/06/16/frank-lloyd-wright-robie-house-/gallery/domus-robie-house-3.jpg.foto.rmedium.png'
+  },
+  {
+      'name' : 'Robie House',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1910',
+      'place' : 'Chicago',
+      'context' : 'Praire House',
+      'image' : 'https://arte.sky.it/archivio/wp-content/uploads/2019/03/Robie-House-Living-Room-Courtesy-of-Frank-Lloyd-Wright-Trust-620x358.jpg'
+  },
+  
+];
+
 const questions = [
   ...cap3,
-  ...cap2
+  ...cap2,
+  ...cap4
 ]
 /*[
   {
