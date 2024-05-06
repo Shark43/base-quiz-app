@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Typography, Button } from '@material-ui/core';
 import './App.css';
 import QuestionContainer from './QuestionContainer';
+import LinearWithValueLabel from './LinearWithValueLabel';
 
 const cap3 = [
   {
@@ -3159,21 +3160,15 @@ function App() {
     };
   }, [componenteAttivo]); // Aggiorna l'intervallo solo quando cambia componenteAttivo
 
-  const cambiaComponente = () => {
-    handleNextQuestion();
-    setComponenteAttivo(1); // Passa al componente 1
-    setTempoRimanente(TIMER_TIME); // Resetta il timer
-  };
-
   return (
     <div className="App">
       <Typography variant="h1">Quiz App - Arte</Typography>
-
         <div>
         {componenteAttivo === 1 && (
           <div>
             <Typography variant="h4">Domanda: {currentQuestion + 1} di {MAX_QUESTION}</Typography>
             <Typography variant="h4">{tempoRimanente} secondi rimanenti</Typography>
+            <LinearWithValueLabel progress={100 - tempoRimanente * 10}/>
             {questions[currentQuestion] && (
               <QuestionContainer
                 question={questions[currentQuestion]}
