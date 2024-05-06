@@ -916,6 +916,321 @@ const cap12 = [
   },
 ];
 
+const cap11 = [
+  {
+      'name' : 'Jefferson Memorial',
+      'author' : 'J. R. Pope',
+      'date' : '1936',
+      'place' : 'Washington',
+      'context' : 'Classicismo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Jefferson_Memorial_At_Dusk_1.jpg/800px-Jefferson_Memorial_At_Dusk_1.jpg'
+  },
+  {
+      'name' : 'Biblioteca pubblica',
+      'author' : 'P. Cret',
+      'date' : '1919',
+      'place' : 'Indianapolis - USA',
+      'context' : 'Classicismo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/b/b0/Biblioteca_central%2C_Indianápolis%2C_Estados_Unidos%2C_2012-10-22%2C_DD_06.jpg'
+  },
+  {
+      'name' : 'Treno Zephyr',
+      'author' : 'Pail Cret',
+      'date' : '1934',
+      'place' : 'USA',
+      'context' : '',
+      'image' : 'https://www.pbs.org/wgbh/americanexperience/media/filer_public_thumbnails/filer_public/41/03/410386f1-7090-48b3-ad60-30f6acbcf61b/streamliners_burlington_zephyr.jpg__1000x424_q85_crop_subsampling-2_upscale.jpg'
+  },
+  {
+      'name' : 'Progetto per il Chicago Tribune',
+      'author' : 'L. Hilberseimer',
+      'date' : '1922',
+      'place' : 'Chicago',
+      'context' : 'Concorso Chicago Tribune - Avanguardie europee',
+      'image' : 'https://thecityasaproject.org/wp-content/uploads/2011/09/hilbs-chicago-tribune.jpg'
+  },
+  {
+      'name' : 'Progetto per il Chicago Tribune',
+      'author' : 'Howells e Hood',
+      'date' : '1922',
+      'place' : 'Chicago',
+      'context' : 'Neogotico',
+      'image' : 'https://s3.amazonaws.com/architecture-org/files/modules/tribune-tower-tribune-tower-02.jpg'
+  },
+  {
+      'name' : 'Progetto per il Chicago Tribune',
+      'author' : 'Eliel Saarinen',
+      'date' : '1922',
+      'place' : 'Chicago',
+      'context' : 'Classicismo + Art Decò',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Eliel_Saarinen_Tribune_Tower_design_1922.jpg'
+  },
+  {
+      'name' : 'Chrysler Building',
+      'author' : 'W. van Alen',
+      'date' : '1930',
+      'place' : 'New York',
+      'context' : 'Grande depressione 1929 - Distacco tradizione negli edifici alti - Art Decò',
+      'image' : 'https://hips.hearstapps.com/hmg-prod/images/skyscrapers-and-chrysler-building-royalty-free-image-1655481989.jpg'
+  },
+  {
+      'name' : 'Doccione Chrysler Building',
+      'author' : 'W. van Alen',
+      'date' : '1930',
+      'place' : 'New York',
+      'context' : 'Grande depressione 1929 - Distacco tradizione negli edifici alti - Art Decò',
+      'image' : 'https://images.squarespace-cdn.com/content/v1/5a5cec57692ebeaf27ccf6a6/1519681036553-EC7VLBL3D2DVQ0LMT2EA/chrysler-building-agostina-cois-piccola-new-yorker-pianificazioni-di-viaggio-a-new+york?format=500w'
+  },
+  {
+      'name' : 'Ascensori Chrysler Building',
+      'author' : 'W. van Alen',
+      'date' : '1930',
+      'place' : 'New York',
+      'context' : 'Grande depressione 1929 - Distacco tradizione negli edifici alti - Art Decò',
+      'image' : 'https://c8.alamy.com/compit/h7j5e8/new-york-city-ny-nyc-manhattan-midtown-42nd-street-chrysler-building-lobby-ascensore-marmo-art-deco-design-legno-intarsiato-adulto-adulti-uomo-maschio-entrata-h7j5e8.jpg'
+  },
+  {
+      'name' : 'Lobby Empire State Building',
+      'author' : 'Shreve, Lamb & Harmon',
+      'date' : '1930',
+      'place' : 'New York',
+      'context' : 'Art Decò',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Empire_State_Building_Lobby_Mural.jpg'
+  },
+  {
+      'name' : 'Imperial Hotel',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1919',
+      'place' : 'Tokyo',
+      'context' : 'Architettura organica - Riferimenti Giappone e Praire House',
+      'image' : 'https://static.dezeen.com/uploads/2017/06/imperial-hotel-tokyo-japan-frank-lloyd-wright_dezeen_2364_col_6-e1497499213369.jpg'
+  },
+  {
+      'name' : 'Particolare HollyHock House',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1919',
+      'place' : 'Los Angeles',
+      'context' : 'Revival Maya',
+      'image' : 'https://images.squarespace-cdn.com/content/v1/5f47fe9cfd0e5c5551097c51/1601143418491-L9JH15PCODRC9SYDEIK7/Untitled+design.png'
+  },
+  {
+      'name' : 'Broadacre city',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1934',
+      'place' : 'USA',
+      'context' : 'Piano urbano e costruzioni unifamiliari con acro di terreno',
+      'image' : 'https://franklloydwright.org/wp-content/uploads/2018/09/Figure1_broadacre.jpg'
+  },
+  {
+      'name' : 'Interno Ennis House',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1924',
+      'place' : 'Los Angeles',
+      'context' : 'Revival Maya',
+      'image' : 'https://www.tedsoquiphoto.com/img-get/I0000yJWjUkNaB4U/s/1200/I0000yJWjUkNaB4U.jpg'
+  },
+  {
+      'name' : 'Taliesin West',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1937',
+      'place' : 'Scottsdale - USA',
+      'context' : 'Architettura organica',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TaliesinWest03_gobeirne.jpg/260px-TaliesinWest03_gobeirne.jpg'
+  },
+  {
+      'name' : 'Fallingwater',
+      'author' : 'Frank Lloyd Wright',
+      'date' : '1934',
+      'place' : 'Mill Run - USA',
+      'context' : 'Architettura organica',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Wrightfallingwater.jpg/199px-Wrightfallingwater.jpg'
+  },
+  {
+      'name' : 'Salone Falling Water',
+     'author' : 'Frank Lloyd Wright',
+      'date' : '1934',
+      'place' : 'Mill Run - USA',
+      'context' : 'Architettura organica',
+      'image' : 'https://www.architetturaeviaggi.it/moduli/galleria/america/1329_nor.jpg'
+  },
+  {
+      'name' : 'Esposizione universale di New York',
+      'author' : '',
+      'date' : '1939',
+      'place' : 'New York',
+      'name' : 'Esposizione universale di New York',
+      'image' : 'https://www.ribapix.com/images/thumbs/028/0285600_RIBA88689_600.jpeg'
+  },
+  {
+      'name' : 'Machine Art mostra',
+      'author' : 'P. Johnson',
+      'date' : '1934',
+      'place' : 'New York - MoMa',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://www.moma.org/d/c/installation_images/W1siZiIsIjM0ODE4NSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDI1NngyNTZcdTAwM2UiXV0.jpg?sha=0e6226539901ed91'
+  },
+  {
+      'name' : 'Lovell House',
+      'author' : 'R. Neutra',
+      'date' : '1927',
+      'place' : 'Los Angeles',
+      'context' : 'Case industrializzate - 1ª casa con scheletro interamente in acciaio',
+      'image' : 'https://sah-archipedia.org/sites/default/files/pictures/full/CA-01-037-0089_002.jpg'
+  },
+  {
+      'name' : 'Struttura in acciaio Lovell House',
+      'author' : 'R. Neutra',
+      'date' : '1927',
+      'place' : 'Los Angeles',
+      'context' : 'Case industrializzate - 1ª casa con scheletro interamente in acciaio',
+      'image' : 'https://www.claasshaus.com/uploads/3/7/4/0/37405143/screen-shot-2017-04-06-at-2-26-34-pm_orig.png'
+  },
+  {
+      'name' : 'Brevetto Bagno prefabbricato',
+      'author' : 'R. Buckminster Fuller',
+      'date' : '1938',
+      'place' : 'USA',
+      'context' : 'Costruzioni prefabbricate',
+      'image' : 'https://i.pinimg.com/236x/5a/91/a1/5a91a14857ce7c4778f5e0ad67428051.jpg'
+  },
+  {
+      'name' : 'Kaufmann House',
+      'author' : 'R. Neutra',
+      'date' : '1946',
+      'place' : 'San Jacinto - California',
+      'context' : 'International Style',
+      'image' : 'https://archidiap.com/beta/assets/uploads/2014/12/Kaufmann-Desert-House-1946-47.jpg'
+  },
+  {
+      'name' : 'Glass House',
+      'author' : 'P. Johnson',
+      'date' : '1949',
+      'place' : 'New Canaan - Connecticut - USA',
+      'context' : 'International Style',
+      'image' : 'https://images.divisare.com//image/upload/c_fit,f_jpg,q_80,w_1200/v1474630362/ap6slzrdoacou8gocbeo.jpg'
+  },
+  {
+      'name' : 'Carpenter Center of the Visual Arts',
+      'author' : 'Le Corbusier',
+      'date' : '1959',
+      'place' : 'Cambridge - USA',
+      'context' : 'International Style',
+      'image' : 'https://www.lemessurier.com/wp-content/uploads/2023/04/carpenter_center_1a-scaled.jpg'
+  },
+  {
+      'name' : 'Johnson Wax Building',
+      'author' : 'F.L. Wright',
+      'date' : '1936',
+      'place' : 'Racine -USA',
+      'context' : 'Architettura organica',
+      'image' : 'https://blog.360modern.com/wp-content/uploads/2021/07/Campus-Facing-East.jpeg'
+  },
+  {
+      'name' : 'Interno Johnson Wax Building',
+      'author' : 'F.L. Wright',
+      'date' : '1936',
+      'place' : 'Racine -USA',
+      'context' : 'Architettura organica',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/speciali/orgatec/2018/lufficio-pi-moderno-del-mondo/domus-frank-lloyd-wright-9.jpg.foto.rmedium.jpg'
+  },
+  {
+      'name' : 'Cantiere Johnson Wax Building',
+      'author' : 'F.L. Wright',
+      'date' : '1936',
+      'place' : 'Racine -USA',
+      'context' : 'Architettura organica',
+      'image' : 'https://evstudio.com/wp-content/uploads/2015/11/Loading-of-Johnson-Wax-Columns.jpg'
+  },
+  {
+      'name' : 'Case study House nº8',
+      'author' : 'C. e R. Eames',
+      'date' : '1948',
+      'place' : 'California',
+      'context' : 'Architettura organica',
+      'image' : 'https://miro.medium.com/v2/resize:fit:1200/1*5-SRl2dL5I2AAN6R57Jbew.jpeg'
+  },
+  {
+      'name' : 'Interno Case study House nº8',
+      'author' : 'C. e R. Eames',
+      'date' : '1948',
+      'place' : 'California',
+      'context' : 'Architettura organica',
+      'image' : 'https://lesommer.fr/photo/632_screen.jpg'
+  },
+  {
+      'name' : 'Baker House',
+      'author' : 'A. Aalto',
+      'date' : '1947',
+      'place' : 'MIT Boston',
+      'context' : 'Architettura organica',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/8/81/MIT_Baker_House_Dormitory_%2834321178075%29.jpg'
+  },
+  {
+      'name' : 'General Motors Warren',
+      'author' : 'E. Saarinen',
+      'date' : '1948',
+      'place' : 'Michigan',
+      'context' : 'Architettura organica',
+      'image' : 'https://live.staticflickr.com/3348/3659654143_68e39b4e57_b.jpg'
+  },
+  {
+      'name' : 'Interno cupola General Motors Warren',
+      'author' : 'E. Saarinen',
+      'date' : '1948',
+      'place' : 'Michigan',
+      'context' : 'Architettura organica',
+      'image' : 'https://images.adsttc.com/media/images/5ece/38bd/b357/6516/5600/01de/large_jpg/General_Motors_Technical_Center_UNC195X-0167.jpg?1590573225'
+  },
+  {
+      'name' : 'TWA Terminal',
+      'author' : 'E. Saarinen',
+      'date' : '1956',
+      'place' : 'New York',
+      'context' : 'Movimento moderno - Influenza streamline - Incontro tra industrializzazione e organicismo - Volumi curvilinei, forme concavo-convesse e materiali davanguardia',
+      'image' : 'https://atlasofplaces.com/atlas-of-places-images/ATLAS-OF-PLACES-EERO-SAARINEN-ASSOCIATES-TWA-FLIGHT-CENTER-IMG-1.jpg'
+  },
+  {
+      'name' : 'Interno TWA Terminal',
+      'author' : 'E. Saarinen',
+      'date' : '1956',
+      'place' : 'New York',
+      'context' : 'Movimento moderno - Influenza streamline - Incontro tra industrializzazione e organicismo - Volumi curvilinei, forme concavo-convesse e materiali davanguardia',
+      'image' : 'https://www.metalocus.es/sites/default/files/styles/mopis_news_gallery_first_deskop/public/file-images/TWA_terminal_EeroSaarnien_rest_metalocus_05_1280.jpg?itok=IP7o4DYR'
+  },
+  {
+      'name' : 'Guggenheim Museum',
+      'author' : 'F.L. Wright',
+      'date' : '1943',
+      'place' : 'New York',
+      'context' : 'Architettura organica',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Guggenheim_museum_exterior.jpg/260px-Guggenheim_museum_exterior.jpg'
+  },
+  {
+      'name' : 'Interno Guggenheim Museum',
+      'author' : 'F.L. Wright',
+      'date' : '1943',
+      'place' : 'New York',
+      'context' : 'Architettura organica',
+      'image' : 'https://c8.alamy.com/compit/eckhdf/stati-uniti-d-america-new-york-city-il-guggenheim-museum-di-frank-lloyd-wright-vista-interna-eckhdf.jpg'
+  },
+  {
+      'name' : 'Mostra Organic Design in Home Furnishings',
+      'author' : 'E. Saarinen e C. Eames',
+      'date' : '1940',
+      'place' : 'MoMa - New York',
+      'context' : 'Interni organici',
+      'image' : 'https://static.vitra.com/media-resized/sLj9G2MAt_NVx7589cGrLX3TKDZ_kLUwJv3VC0HVtAc/fill/750/498/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0LzE1OTYzNjQvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC8xODI5MzMxMC5qcGc.jpg'
+  },
+  {
+      'name' : 'Sedia in plastica monoscocca',
+      'author' : 'R. Day',
+      'date' : '1960',
+      'place' : 'UK',
+      'context' : 'Progetto industriale',
+      'image' : 'https://m.media-amazon.com/images/I/51KP6m8UshL._AC_UF1000,1000_QL80_.jpg'
+  },
+];
+
 const questions = [
   ...cap3,
   ...cap2,
