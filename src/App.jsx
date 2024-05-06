@@ -2222,7 +2222,7 @@ const questions = [
   ...cap3,
   ...cap2,
   ...cap4,
-
+  ...cap8,
   ...cap9,
   ...cap10,
   ...cap11,
