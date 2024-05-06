@@ -1967,6 +1967,257 @@ const cap10 = [
   
 ];
 
+const cap8 = [
+  {
+      'name' : 'Das Andere',
+      'author' : 'Adlf Loos',
+      'date' : '1903',
+      'place' : 'Austria',
+      'context' : 'Precursore Movimento Moderno',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8H0A4KThlESdMlotl3jG4VNHabTEbOBIOd142hyphenhyphenmR50Lq7YEzCmN1KkXhx_0dW1HB5ww9QuUjPUpEZgnM9SZWcxA46azwLxaA7J8d2dx5d70Dk98mchhNAz0rGtCi3hCdOfgSn1FdEGO/s320/3_loos-mag-with-advertisment-of-client-1903-thumb-500x574-7224.jpeg'
+  },
+  {
+      'name' : 'Cafè Museum',
+      'author' : 'Adolf Loos',
+      'date' : '1899',
+      'place' : 'Vienna',
+      'context' : 'Precursore Movimento Moderno',
+      'image' : 'https://www.cafemuseum.at/xstorage/2/_cache/Cafe_Museum_Loos_7938_1_a879bba86292177119a519d42ed9ac5f.jpg'
+  },
+  {
+      'name' : 'Casa in Michaelerplatz',
+      'author' : 'Adolf Loos',
+      'date' : '1910',
+      'place' : 'Vienna',
+      'context' : 'Precursore Movimento Moderno',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Looshaus_Michaelerplatz.JPG/1200px-Looshaus_Michaelerplatz.JPG'
+  },
+  {
+      'name' : 'Vignetta satirica su Casa in Michaelerplatz',
+      'author' : '',
+      'date' : '1910',
+      'place' : 'Vienna',
+      'context' : '',
+      'image' : 'https://3.bp.blogspot.com/-oZEyvpuMrFU/UPmY45La_rI/AAAAAAAABHI/WFp4_OiENYs/s1600/vignettadelperiodo.jpg'
+  },
+  {
+      'name' : 'Interno sartoria Goldman',
+      'author' : 'Adolf Loos',
+      'date' : '',
+      'place' : 'Vienna',
+      'context' : 'Precursore Movimento Moderno',
+      'image' : 'https://archchiarabenvenuti.wordpress.com/wp-content/uploads/2017/08/interno_goldman-e-salatsch_loos.jpg?w=620'
+  },
+  {
+      'name' : 'Casa Steiner',
+      'author' : 'Adolf Loos',
+      'date' : '1910',
+      'place' : 'Vienna',
+      'context' : 'Precursore Movimento Moderno',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Wien_Hietzing%2C_St.-Veit-Gasse_10_-_1.JPG'
+  },
+  {
+      'name' : 'Progetto concorso Chicago Tribune',
+      'author' : 'Adolf Loos',
+      'date' : '1922',
+      'place' : 'Chicago',
+      'context' : 'Richiamo allarchitettura classica',
+      'image' : 'https://lh3.googleusercontent.com/proxy/VqGWbLWe5Nnj9Iil63MJf_79y7OI_At7pdsWtNF6bj3pW7ANzFzAuNIR3jMB2VsmyetrQbSArsIWuz00NWeEQUyS1QNGE4rLGsdEkQDjs2EJz5CUlj-n-KRAWwq_-u9U'
+  },
+  {
+      'name' : 'LOfficina, sala studio di DAnnunzio',
+      'author' : '',
+      'date' : '',
+      'place' : '',
+      'context' : '',
+      'image' : 'https://inchiostrovirtuale.it/wp-content/uploads/2017/03/officina_vittoriale.jpg'
+  },
+  {
+      'name' : 'Casa alla Werkbund Siedlung',
+      'author' : 'Adolf Loos',
+      'date' : '1930',
+      'place' : 'Vienna',
+      'context' : 'Raumplan e case unifamiliari',
+      'image' : 'https://www.archweb.it/dwg/arch_arredi_famosi/adolf_loos/siedlung/Werkbundsiedlung_loos_1.jpg'
+  },
+  {
+      'name' : 'Citè industrielle',
+      'author' : 'Tony Garnier',
+      'date' : '1917',
+      'place' : 'Parigi',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6EfCrtNIDKaTe5jLMvn4erk5JLH72EdkwNNyk_nDl0ZEAdRgNciuPeT3zpvENWdJEvOw&usqp=CAU'
+  },
+  {
+      'name' : 'Grande Halle del mercato del bestiame',
+      'author' : 'Tony Garnier',
+      'date' : '1906',
+      'place' : 'Lione',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://images.placesonline.com/photos/79642__halle_tony_garnier.jpg?quality=80&w=710&h=510&mode=crop'
+  },
+  {
+      'name' : 'Quartiere Etats-Unis',
+      'author' : 'Tony Garnier',
+      'date' : '1917',
+      'place' : 'Lione',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://4.bp.blogspot.com/-GC4QVDC6YEM/TvoVfFT-wmI/AAAAAAAAB-U/Tm7yPTIhvzk/s1600/DSC08765.JPG'
+  },
+  {
+      'name' : 'Edificio in rue Vavin',
+      'author' : 'Sauvage e Sarazin',
+      'date' : '1912',
+      'place' : 'Parigi',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://blogmontparnos.paris/wp-content/uploads/2021/01/img-9_c-1024x824.jpg'
+  },
+  {
+      'name' : 'Comparazione dei diversi brevetti calcestruzzo armato',
+      'author' : 'Christophe',
+      'date' : '1902',
+      'place' : 'Francia',
+      'context' : 'Epoca del calcestruzzo armato',
+      'image' : 'https://asbwilbot.fr/wp-content/uploads/2014/10/Beton-arme.jpg'
+  },
+  {
+      'name' : 'Edificio n°25 in rue Franklin',
+      'author' : 'Perret',
+      'date' : '1903',
+      'place' : 'Parigi',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://cajondearquitecto.com/wp-content/uploads/2013/04/auguste-perret-25-rue-franklin-2.jpg?w=563&h=1068'
+  },
+  {
+      'name' : 'Garage Ponthieu',
+      'author' : 'Perret',
+      'date' : '1906',
+      'place' : 'Parigi',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://c8.alamy.com/compit/2b8tm7r/vista-interna-del-garage-ponthieu-automobiles-costruito-da-auguste-perret-51-rue-de-ponthieu-8-arrondissement-parigi-vue-interieure-du-garage-ponthieu-automobiles-construit-par-auguste-perret-51-rue-de-ponthieu-parigi-viiieme-arr-photographie-de-charles-lansiaux-1855-1939-tigre-au-gelatino-bromure-d-argent-1905-1920-parigi-musee-carnavalet-2b8tm7r.jpg'
+  },
+  {
+      'name' : 'Sartoria Henri Esders',
+      'author' : 'Perret',
+      'date' : '1919',
+      'place' : 'Parigi',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5EVsXkBNXrm9t_vAg-2DENOgNItvI7Dzymb7ktiBFzAMAZu-6QOXc_Cttdqp3FoRxFvD81Z6tFbZMv0XVRhb8R6u0oGVnJW6ialrMv4tZg3gS5i1s6wxrT5fzcOCrGIVsxzBObeq6yYAI/s1600/%2523+47711_6.jpg'
+  },
+  {
+      'name' : 'Interno Chiesa Notre-Dame',
+      'author' : 'Perret',
+      'date' : '1922',
+      'place' : 'Raincy',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://img.atlasobscura.com/VdgKPUdFthbeu0-zi6fYBM3X8eEDlI-b1ZzICQEIrJU/rs:fill:780:520:1/g:ce/c:711:474:nowe:0:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy82YjFi/ZThiOWQ0YTMzNWE0/OWRkYWRkMzU3YjUx/ZjYyYnJhaW5jeS5q/cGc.jpg'
+  },
+  {
+      'name' : 'Fiat Lingotto',
+      'author' : 'Giacomo Mattè Trucco',
+      'date' : '1915',
+      'place' : 'Torino',
+      'context' : 'Precursori Movimento Moderno',
+      'image' : 'https://atlas.landscapefor.eu/content/uploads/media/306/2018-09-24-lingotto-dallalto-storia.jpg'
+  },
+  {
+      'name' : 'Scala elicoidale stadio Berta',
+      'author' : 'Nervi',
+      'date' : '1930',
+      'place' : 'Firenza',
+      'context' : 'Precursori Movimento Moderno - Estetica del cemento armato',
+      'image' : 'https://scontent.ftrn3-1.fna.fbcdn.net/v/t1.6435-9/95629557_2934144166700210_1547793784119492608_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=u_k8CuVVRgIAb6oUIXm&_nc_ht=scontent.ftrn3-1.fna&oh=00_AfC4QoEl6fshulp3vUtajLC3AYM-FtoE_wgXJcOWYyZkPA&oe=66584EE6'
+  },
+  {
+      'name' : 'Wood Church',
+      'author' : 'Asplund',
+      'date' : '1918',
+      'place' : 'Stoccolma',
+      'context' : 'Classicsimo semplificato e legame con ambiente circostante',
+      'image' : 'https://arquiscopio.com/archivo/wp-content/uploads/2012/08/120829_Asplund_Capilla-01.jpg'
+  },
+  {
+      'name' : 'Bblioteca civica di Stoccolma',
+      'author' : 'Asplund',
+      'date' : '1920',
+      'place' : 'Stoccolma',
+      'context' : 'Classicsimo semplificato e legame con ambiente circostante',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/AsplundGunnarBibliotheque.jpg/260px-AsplundGunnarBibliotheque.jpg'
+  },
+  {
+      'name' : 'Club lavoratori',
+      'author' : 'Alvar Aalto',
+      'date' : '1924',
+      'place' : 'Jyväskylä',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://www.alvaraalto.fi/wp-content/uploads/2018/07/Jyväskylän-työväentalo-1924-1925-vuonna-1997-kuva-maija-holma-alvar-aalto-saatio-L-1291-988x659.jpg'
+  },
+  {
+      'name' : 'Biblioteca di Viipuri',
+      'author' : 'Alvar Aalto',
+      'date' : '1927',
+      'place' : 'Vyborg',
+      'context' : 'Razionalismo - Movimento Moderno',
+      'image' : 'https://www.bookandthecity.it/wp-content/uploads/2021/04/Vyborg_Library_Interior2-1024x682.jpeg'
+  },
+  {
+      'name' : 'Sanatorio di Paimio',
+      'author' : 'Alvar Aalto',
+      'date' : '1929',
+      'place' : 'Paimio',
+      'context' : 'Razionalismo - Movimento Moderno',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/architecture/gallery/2024/01/12/la-sorprendente-attualit-del-sanatorio-di-paimio-di-alvar-e-aino-aalto/domus-paimio-1.jpg'
+  },
+  {
+      'name' : 'Sgabello Viipuri',
+      'author' : 'Alvar Aalto',
+      'date' : '1927',
+      'place' : 'Vyborg',
+      'context' : 'Razionalismo - Movimento Moderno',
+      'image' : 'https://www.arredativo.it/wp-content/uploads/2011/04/aretkstool60.jpg'
+  },
+  {
+      'name' : 'Balconata Sanatorio di Paimio',
+      'author' : 'Alvar Aalto',
+      'date' : '1929',
+      'place' : 'Paimio',
+      'context' : 'Razionalismo - Movimento Moderno',
+      'image' : 'https://lineediricercaphd31.wordpress.com/wp-content/uploads/2016/04/23.jpg?w=840'
+  },
+  {
+      'name' : 'Stanza degenza Sanatorio di Paimio',
+      'author' : 'Alvar Aalto',
+      'date' : '1929',
+      'place' : 'Paimio',
+      'context' : 'Razionalismo - Movimento Moderno',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/architecture/gallery/2024/01/12/la-sorprendente-attualit-del-sanatorio-di-paimio-di-alvar-e-aino-aalto/domus-paimio-epoca-6.jpg.foto.rmedium.jpg'
+  },
+  {
+      'name' : 'Poltrona Paimio',
+      'author' : 'Alvar Aalto',
+      'date' : '1931',
+      'place' : 'Paimio',
+      'context' : 'Razionalismo - Movimento Moderno',
+      'image' : 'https://media.fds.fi/product_image/800/Armchair-41-Paimio-Sanatorium-Anniversary-Edition-cut-out.jpg'
+  },
+  {
+      'name' : 'Villa Mairea',
+      'author' : 'Alvar Aalto',
+      'date' : '1938',
+      'place' : 'Noormarkku',
+      'context' : 'Architettura organica',
+      'image' : 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/58/6c/9b/alvar-aalto.jpg?w=1200&h=-1&s=1'
+  },
+  {
+      'name' : 'Interno Villa Mairea',
+      'author' : 'Alvar Aalto',
+      'date' : '1938',
+      'place' : 'Noormarkku',
+      'context' : 'Architettura organica',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovNoNzGxrfWrOVW-4b4CMAd36OKianUWtvvbY3A1MQPpHXjzw2vhu1hgaVDkmjnzTPhw&usqp=CAU'
+  },
+];
+
 const questions = [
   ...cap3,
   ...cap2,
