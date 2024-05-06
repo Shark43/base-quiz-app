@@ -1619,12 +1619,362 @@ const cap9 = [
   
 ];
 
+const cap10 = [
+  {
+      'name' : 'Ca Brutta',
+      'author' : 'Giovanni Muzio',
+      'date' : '1919',
+      'place' : 'Milano',
+      'context' : 'Ritorno al classicismo post 1ª G.M.',
+      'image' : 'https://cdn.turistipercaso.it/media?src=/uploads/2023/12/ca-brutta.jpg&sharpen&save-as=webp&aspect-ratio=16:9&crop-to-fit&w=660&q=69'
+  },
+  {
+      'name' : 'Palazzo per uffici Gualino',
+      'author' : 'G. Pagano',
+      'date' : '1928',
+      'place' : 'Torino',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://www.arketipomagazine.it/wp-content/uploads/sites/20/2014/12/palazzo_gualino_03-436x291.jpg'
+  },
+  {
+      'name' : 'Villa Colli',
+      'author' : 'G. Pagano',
+      'date' : '1929',
+      'place' : 'Torino',
+      'context' : 'Modernità + tradizione rurale',
+      'image' : 'https://www.antithesi.info/images/foto/villa_colli/web_Villa-Colli-fronte.jpg'
+  },
+  {
+      'name' : 'Mostra dellarchitettura rurale',
+      'author' : 'G. Pagano',
+      'date' : '1936',
+      'place' : 'Milano - VI Triennale',
+      'context' : 'Architettura rurale',
+      'image' : 'https://freight.cargo.site/w/948/q/94/i/1f364719b8251f9964152cb49ca6372f935ad273915b784f9bbe293e695f704c/Giusppe-Pagano-RURAL-Ciclostile-Architettura-rurale.jpg'
+  },
+  {
+      'name' : 'Elettrotreno Etr200',
+      'author' : 'G. Pagano produzione Breda',
+      'date' : '1936',
+      'place' : 'Milano',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Elettrotreno_ETR_232_interno.JPG/220px-Elettrotreno_ETR_232_interno.JPG'
+  },
+  {
+      'name' : 'Sala dattesa di uno studio medico',
+      'author' : 'Bottoni e Pucci',
+      'date' : '1936',
+      'place' : 'Triennale di Milano',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://www.area-arch.it/wp-content/uploads/sites/6/2019/09/P.-Bottoni-M.-Pucci-“Sala-di-attesa-per-lo-studio-di-un-medico”-VI-Triennale-di-Milano-1936.-Archivio.jpg'
+  },
+  {
+      'name' : 'Interno sede Bocconi',
+      'author' : 'G. Pagano',
+      'date' : '1939',
+      'place' : 'Milano',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://www.disegnoallitaliana.it/wp-content/uploads/2020/09/Interno-Bocconi.jpg'
+  },
+  {
+      'name' : 'Casa a struttura in acciaio',
+      'author' : 'G. Pagano',
+      'date' : '1933',
+      'place' : 'V Triennale di Milano',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://www.lombardiabeniculturali.it/img_db/bcf/3u030/3/l/F-SUP-3u030-0002193-IMG-0000988613.jpg'
+  },
+  {
+      'name' : 'Sede Bocconi',
+      'author' : 'G. Pagano',
+      'date' : '1937',
+      'place' : 'Milano',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://i.pinimg.com/564x/49/4e/bd/494ebdb32ffe06c3665abc9df949e9a4.jpg'
+  },
+  {
+      'name' : 'Tavola degli orrori',
+      'author' : 'Pietro Maria Bardi',
+      'date' : '1931',
+      'place' : 'II Esposizione di Roma',
+      'context' : 'Critica alle opere tradizionalistehttps://www.lombardiabeniculturali.it/img_db/bca/3m080/1/l/SC_A_3m080-00038_IMG-0000187291.jpg',
+      'image' : 'https://bonapartedotblog.wordpress.com/wp-content/uploads/2019/05/image_gallery.jpg'
+  },
+  {
+      'name' : 'Novocomun',
+      'author' : 'G. Terragni',
+      'date' : '1927',
+      'place' : 'Como',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://www.lombardiabeniculturali.it/img_db/bca/3m080/1/l/SC_A_3m080-00038_IMG-0000187291.jpg'
+  },
+  {
+      'name' : 'Casa del fascio',
+      'author' : 'G. Terragni',
+      'date' : '1932',
+      'place' : 'Como',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://www.lombardiabeniculturali.it/img_db/bca/3m080/1/l/SC_A_3m080-00039_IMG-0000187305.jpg'
+  },
+  {
+      'name' : 'Macchina da scrivere Lettera 22',
+      'author' : 'M. Nizzoli produzione Olivetti',
+      'date' : '1950',
+      'place' : 'Ivrea',
+      'context' : '',
+      'image' : 'http://www.typewriterstory.com/wp-content/uploads/2020/09/Senza-titolo-19.png'
+  },
+  {
+      'name' : 'Casa Rustici',
+      'author' : 'G. Terragni',
+      'date' : '1933',
+      'place' : 'Milano',
+      'context' : 'Razionalismo italiano',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/6/64/Milano_casa_Rustici.JPG'
+  },
+  {
+      'name' : 'Palazzo di giustizia',
+      'author' : 'M. Piacentini',
+      'date' : '1933',
+      'place' : 'Milano',
+      'context' : 'Modernità + tradizione - Anni 30 Italia',
+      'image' : 'https://tribunale-milano.giustizia.it/cmsresources/cms/images/foto81_2_d0.jpg'
+  },
+  {
+      'name' : 'Ricostruzione 2º tratto Via Roma',
+      'author' : 'M. Piacentini',
+      'date' : '1933',
+      'place' : 'Torino',
+      'context' : 'Modernità + tradizione - Anni 30 Italia',
+      'image' : 'https://www.museotorino.it/images/7c/85/f5/43/7c85f54367fe4101ab623b12f7c4ad29-1.jpg?VSCL=100'
+  },
+  {
+      'name' : 'Città universitaria',
+      'author' : 'M. Piacentini',
+      'date' : '1932',
+      'place' : 'Roma',
+      'context' : 'Modernità + tradizione - Anni 30 Italia',
+      'image' : 'https://www.secondamanoitalia.it/wp-content/uploads/2021/01/Roma-quartiere-San-Lorenzo.-Statua-della-Minerva-e-Rettorato-della-Citta-universitaria.jpg'
+  },
+  {
+      'name' : 'Stazione Santa Maria Novella',
+      'author' : 'G. Michelucci',
+      'date' : '1933',
+      'place' : 'Firenze',
+      'context' : 'Moderno',
+      'image' : 'https://www.florencecity.it/wp-content/uploads/2017/07/Stazione-SFM2.jpg'
+  },
+  {
+      'name' : 'Palazzo delle poste',
+      'author' : 'G. Vaccaro',
+      'date' : '1932',
+      'place' : 'Napoli',
+      'context' : 'Monumentalità',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Palazzo_dell_Poste%2C_Piazza_Matteotti.jpg/1200px-Palazzo_dell_Poste%2C_Piazza_Matteotti.jpg'
+  },
+  {
+      'name' : 'Palazzo delle poste',
+      'author' : 'Libera e De Renzi',
+      'date' : '1933',
+      'place' : 'Roma',
+      'context' : 'Modernità',
+      'image' : 'https://archidiap.com/beta/assets/uploads/2014/10/Veduta-generale2-1024x682.jpg'
+  },
+  {
+      'name' : 'Foro italico, Stadio dei marmi',
+      'author' : 'E. Del Debbio',
+      'date' : '1930',
+      'place' : 'Roma',
+      'context' : 'Monumentalià - Fascismo italiano',
+      'image' : 'https://artepiu.info/wp-content/uploads/2020/09/Roma-Stadio-dei-Marmi-4-750x410.jpg'
+  },
+  {
+      'name' : 'Dispensario antitubercolare',
+      'author' : 'I. Gardella',
+      'date' : '1935',
+      'place' : 'Alessandria',
+      'context' : 'Fascismo',
+      'image' : 'https://i.pinimg.com/550x/d7/e9/cb/d7e9cbb59865c2a050c1c2e3f880bddd.jpg'
+  },
+  {
+      'name' : 'Società ippica torinese',
+      'author' : 'C. Mollino',
+      'date' : '1936',
+      'place' : 'Torino',
+      'context' : 'Fascismo',
+      'image' : 'https://www.museotorino.it/images/89/9b/55/48/899b5548caba42d0a4adc21dc492c2d3-1.jpg?VSCL=100'
+  },
+  {
+      'name' : 'Colonia marina',
+      'author' : 'A. Mazzoni',
+      'date' : '1926',
+      'place' : 'Pisa',
+      'context' : 'Fascismo - Influenza futurista colonie',
+      'image' : 'https://www.artefascista.it/CALAMBRONE%20(PISA)%20-%20FASCIO/(WEB)(OK)-1-Calambrone---Pisa-Colonia-Rosa-Maltoni-Mussolini-copia.jpg'
+  },
+  {
+      'name' : 'Colonia marina',
+      'author' : 'C. Busiri-Vici',
+      'date' : '1934',
+      'place' : 'Cattolica',
+      'context' : 'Fascismo - Influenza futurista colonie',
+      'image' : 'https://www.sigecweb.beniculturali.it/images/fullsize/ICCD1070520/ICCD15664435_SABAPRAAFS98604.jpg'
+  },
+  {
+      'name' : 'Rampa musei Vaticani',
+      'author' : 'G. Momo',
+      'date' : 1930,
+      'place' : 'Città del Vaticano',
+      'context' : 'Nascita stato del Vaticano',
+      'image' : 'https://michelangelobuonarrotietornato.com/wp-content/uploads/2019/09/f077a751faaaca42887fa897d244e7e8.jpg?w=640'
+  },
+  {
+      'name' : 'Manifesto esposizione universale E42',
+      'author' : 'G. Quaroni',
+      'date' : '1939',
+      'place' : 'Roma',
+      'context' : 'Esposizione universale Roma - Fascismo',
+      'image' : 'https://www.sigecweb.beniculturali.it/images/fullsize/ICCD1022838/ICCD11443331_05761_VE%2045469_B.jpg'
+  },
+  {
+      'name' : 'Palazzo dei congressi',
+      'author' : 'A. Libera',
+      'date' : '1937',
+      'place' : 'Roma',
+      'context' : 'Esposizione universale Roma - Fascismo - Monumentalità',
+      'image' : 'https://upload.wikimedia.org/wikipedia/it/9/96/Roma_2011_08_16_Palazzo_dei_Congressi_fronte.jpg'
+  },
+  {
+      'name' : 'Palazzo della civiltà italiana',
+      'author' : 'G. Guerrini',
+      'date' : '1937',
+      'place' : 'Roma',
+      'context' : 'Esposizione universale Roma - Fascismo - Monumentalità',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/8/88/PALACIVILTA888.jpg'
+  },
+  {
+      'name' : 'Casa dellarte - Haus der Kunst',
+      'author' : 'P. Troost',
+      'date' : '1933',
+      'place' : 'Monaco',
+      'context' : 'Monumentalità - Nazismo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/5/55/München_Haus_der_Kunst_2009.jpg'
+  },
+  {
+      'name' : 'Templi dei martiri',
+      'author' : 'P. Troost',
+      'date' : '1935',
+      'place' : 'Monaco',
+      'context' : 'Monumentalità - Nazismo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/9/99/Bundesarchiv_Bild_183-S22310%2C_München%2C_Königsplatz%2C_Ehrentempel.jpg'
+  },
+  {
+      'name' : 'Zeppelinfeld',
+      'author' : 'A. Speer',
+      'date' : '1934',
+      'place' : 'Norimberga',
+      'context' : 'Monumentalità - Nazismo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bundesarchiv_Bild_183-1982-1130-502%2C_Nürnberg%2C_Reichsparteitag%2C_Lichtdom.jpg/640px-Bundesarchiv_Bild_183-1982-1130-502%2C_Nürnberg%2C_Reichsparteitag%2C_Lichtdom.jpg'
+  },
+  {
+      'name' : 'Padiglione Germania',
+      'author' : 'A. Speer',
+      'date' : '1937',
+      'place' : 'Esposizione universale di Parigi',
+      'context' : 'Monumentalità - Nazismo',
+      'image' : 'https://www.repstatic.it/content/periodici/img/d/2015/04/20/112257485-4c3810e3-7f5b-47bf-909e-33fe2c9a4747.jpg'
+  },
+  {
+      'name' : 'Modello della nuova Berlino di Hitler',
+      'author' : 'A. Speer',
+      'date' : '1939',
+      'place' : 'Berlino',
+      'context' : 'Nazismo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bundesarchiv_Bild_146III-373%2C_Modell_der_Neugestaltung_Berlins_%28%22Germania%22%29.jpg/220px-Bundesarchiv_Bild_146III-373%2C_Modell_der_Neugestaltung_Berlins_%28%22Germania%22%29.jpg'
+  },
+  {
+      'name' : 'Grosse Halle modello',
+      'author' : 'A. Speer',
+      'date' : '1939',
+      'place' : 'Berlino',
+      'context' : 'Nazismo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Bundesarchiv_Bild_146-1986-029-02%2C_%22Germania%22%2C_Modell_%22Große_Halle%22.jpg'
+  },
+  {
+      'name' : 'Olympiastadion',
+      'author' : 'A. Speer',
+      'date' : '1936',
+      'place' : 'Berlino',
+      'context' : 'Olimpiadi 1936 - Nazismo',
+      'image' : 'https://c8.alamy.com/compit/bhdg00/sport-giochi-olimpici-berlino-1936-bhdg00.jpg'
+  },
+  {
+      'name' : 'Nuova cancelleria',
+      'author' : 'A. Speer',
+      'date' : '1939',
+      'place' : 'Berlino',
+      'context' : 'Nazismo',
+      'image' : 'https://patrimonio.archivioluce.com/luce-web/imageViewPort/720?imageName=ATTUALITA/A35-234/A00113841.JPG'
+  },
+  {
+      'name' : 'Mausoleo di Lenin',
+      'author' : 'A. Scusev',
+      'date' : '1929',
+      'place' : 'Mosca',
+      'context' : 'Russia di Stalin - Ancora influenza avanguardie ma monumentalià',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mauzoleumlenina_%28cropped%29.jpeg/1200px-Mauzoleumlenina_%28cropped%29.jpeg'
+  },
+  {
+      'name' : 'Piano di Mosca',
+      'author' : '',
+      'date' : '1935',
+      'place' : 'Mosca',
+      'context' : 'Russia di Stalin',
+      'image' : 'https://c8.alamy.com/compit/fp68wr/mosca-piano-di-mosca-1882-mappa-antichi-fp68wr.jpg'
+  },
+  {
+      'name' : 'Teatro dellarmata rossa',
+      'author' : 'K. Alabyan',
+      'date' : '1934',
+      'place' : 'Mosca',
+      'context' : 'Ritorno al classicismo',
+      'image' : 'https://casabellaweb.eu/wp-content/uploads/2012/12/Teatro-Armata-Rossa-Mosca-1940-imagecredits-Sergei-Dorokhovsky-CC-BY-SA-3.0.jpg'
+  },
+  {
+      'name' : 'Padiglione sovietico',
+      'author' : 'B. Iofan',
+      'date' : '1937',
+      'place' : 'Parigi',
+      'place' : 'Esposizione universale di Parigi',
+      'image' : 'https://i1.wp.com/www.senzatregua.it/wp-content/uploads/2017/05/padiglione-sovietico1.jpg'
+  },
+  {
+      'name' : 'Biblioteca Lenin',
+      'author' : 'V. Shchuko',
+      'date' : '1927',
+      'place' : 'Mosca',
+      'context' : 'Russia di Stalin - Ritorno al classicismo',
+      'image' : 'https://c8.alamy.com/compit/rbjjxa/mosca-russia-20-settembre-2014-costruzione-dello-stato-russo-biblioteca-ex-lenin-biblioteca-la-stazione-della-metropolitana-con-lo-stesso-nome-rbjjxa.jpg'
+  },
+  {
+      'name' : 'Hotel Ucraina',
+      'author' : 'A. Mordvinov',
+      'date' : '1950',
+      'place' : 'Mosca',
+      'context' : 'Russia di Stalin - Ritorno al classicismo - Monumentalità',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Moscow_Ukraina_hotel.jpg'
+  },
+  
+];
+
 const questions = [
   ...cap3,
   ...cap2,
   ...cap4,
 
   ...cap9,
+  ...cap10,
+  ...cap11,
   ...cap12
 ]
 /*[
