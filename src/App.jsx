@@ -2525,10 +2525,222 @@ const cap7 = [
   },
 ];
 
+const cap6 = [
+  {
+      'name' : 'Biglietto per Esposizione Arts & Crafts',
+      'author' : '',
+      'date' : '1890',
+      'place' : 'Londra',
+      'context' : 'Arts & Crafts',
+      'image' : 'https://lacittaimmaginaria.com/wp-content/uploads/2020/02/Dettaglio-tratto-da-un-biglietto-per-The-Arts-Crafts-Exhibition-Society-640x751.jpg'
+  },
+  {
+      'name' : 'Red House',
+      'author' : 'William Morris e Philip Webb',
+      'date' : '1860',
+      'place' : 'Sud di Londra',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://cdn.londonandpartners.com/asset/e0bee73cca95bf112b7f13e65bfc2319.jpg'
+  },
+  {
+      'name' : 'Dettaglio copertura Red House',
+      'author' : 'Webb',
+      'date' : '1860',
+      'place' : 'Sud di Londra',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO4Fmx0s5BsoZMSNVSIQ2YIIUUZ9WbtH28xohr6AZwKoEuQsRw-bNGu3amFt9oX46RIWiI40lWHkLH2UcgjQ-Qp3-s_0lWYKeojCqic-thXdAUOEgUSr_USrjZY2IYamojQJgWbckjbAM/s1600/04_Morris_redhouse_copertura.jpg'
+  },
+  {
+      'name' : 'Pagina catalogo sedie impagliate del Sussex',
+      'author' : 'William Morris',
+      'date' : '',
+      'place' : 'Londra',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://www.meisterdrucke.it/kunstwerke/1260px/English_School_-_The_Sussex_Rush-Seated_Chairs_made_by_Morris_and_Company_-_%28MeisterDrucke-424945%29.jpg'
+  },
+  {
+      'name' : 'Acanthus Wallpaper',
+      'author' : 'William Morris',
+      'date' : '1875',
+      'place' : 'Londra',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Morris_Acanthus_Wallpaper_1875.jpg'
+  },
+  {
+      'name' : 'Camera da letto Red House',
+      'author' : 'William Morris',
+      'date' : '1860',
+      'place' : 'Londra',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://c8.alamy.com/compit/pwn4hy/regno-unito-inghilterra-oxfordshire-kelmscott-manor-william-morris-camera-da-letto-ricamati-tessili-letto-pwn4hy.jpg'
+  },
+  {
+      'name' : 'Kelmscott Manor in News from Nowhere',
+      'author' : '',
+      'date' : '1890',
+      'place' : 'Inghilterra',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://images-production.gardenvisit.com/uploads/images/114699/kelmscott_william_morris_garden_original.jpg'
+  },
+  {
+      'name' : 'Antica villa a Clifford Chambers',
+      'author' : 'Sir Benjamin Stone',
+      'date' : '1900',
+      'place' : 'Inghilterra',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://d23iiv8m8qvdxi.cloudfront.net/wp-content/uploads/2016/11/8053-0.jpg'
+  },
+  {
+      'name' : 'Homewood',
+      'author' : 'Luytens',
+      'date' : '1901',
+      'place' : 'Hertfordshire',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://atlive-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/First-page.jpg'
+  },
+  {
+      'name' : 'Panchina per Little Thakeham',
+      'author' : 'Lutens',
+      'date' : '1902',
+      'place' : 'Sussex',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://c8.alamy.com/compit/e4gt9w/stile-lutyens-in-legno-panchina-da-giardino-e4gt9w.jpg'
+  },
+  {
+      'name' : 'Das Englische Haus',
+      'author' : 'Muthesius',
+      'date' : '1904',
+      'place' : 'Germania',
+      'context' : 'Influenza Arts and Crafts in Germania',
+      'image' : 'https://upload.wikimedia.org/wikipedia/de/e/e9/Muthesius_Das_englische_Haus.jpg'
+  },
+  {
+      'name' : 'Casa di Voysey in Das Englische Hause',
+      'author' : 'Muthesius',
+      'date' : '1904',
+      'place' : 'Germania',
+      'context' : 'Influenza Arts and Crafts in Germania',
+      'image' : "http%3A%2F%2Fwww.voysey.gotik-romanik.de%2FPrior%2527s%2520Field%2520Thumbnails%2FVoysey%2C%25201898%2C%2520Design%2520for%2520a%2520house%2520at%2520Bexhill%2C%2520for%2520A.%2520Barker%2C%2520unexecuted%2520%28Prior%27s%2520Field%29.jpg"
+  },
+  {
+      'name' : 'Villa Olbrich',
+      'author' : 'Olbrich',
+      'date' : '1899',
+      'place' : 'Darmstad',
+      'context' : 'Colonia degli artisti Darmstad',
+      'image' : 'https://api.europeana.eu/thumbnail/v3/400/5e5a557f54fbb91fbaa4866390638161'
+  },
+  {
+      'name' : 'Casa Behrens',
+      'author' : 'Peter Behrens',
+      'date' : '1899',
+      'place' : 'Darmstad',
+      'context' : 'Colonia degli artisti Darmstad',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/0/0b/DA-Haus_Behrens1.jpg'
+  },
+  {
+      'name' : 'Logo AEG',
+      'author' : 'Peter Behrens',
+      'date' : '1908',
+      'place' : 'Darmstad',
+      'context' : 'Deutscher Werkbund',
+      'image' : 'https://designindex.it/thumb.php?s=https://www.designindex.it/foto/28/aeg.jpg&w=194&h=194'
+  },
+  {
+      'name' : 'Catalogo AEG',
+      'author' : 'Peter Behrens',
+      'date' : '1910',
+      'place' : 'Darmstad',
+      'context' : 'Deutscher Werkbund',
+      'image' : 'https://www.polano.eu/poisonorg/web/lezioni/14/immagini/immagine23.gif'
+  },
+  {
+      'name' : 'Fabbrica turbine AEG',
+      'author' : 'Peter Behrens',
+      'date' : '1908',
+      'place' : 'Darmstad',
+      'context' : 'Deutscher Werkbund',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Berlin_AEG_Turbinenfabrik.jpg'
+  },
+  {
+      'name' : 'Interno Fabbrica turbine AEG',
+      'author' : 'Peter Behrens',
+      'date' : '1908',
+      'place' : 'Darmstad',
+      'context' : 'Deutscher Werkbund',
+      'image' : 'https://i.pinimg.com/originals/ce/93/50/ce9350e0c6870587e601341a7640685a.jpg'
+  },
+  {
+      'name' : 'Manifesto esposizione Deutscher Werkbund',
+      'author' : 'Peter Behrens',
+      'date' : '1914',
+      'place' : 'Darmstad',
+      'context' : 'Deutscher Werkbund',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Deutsche_Werkbund-Ausstellung_Kunst_in_Handwerk%2C_Industrie_und_Handel_Architektur_Köln_1914_Oct._Peter_Behrens_A._Molling_%26_Comp._KG_Hannover_Berlin.jpg/180px-Deutsche_Werkbund-Ausstellung_Kunst_in_Handwerk%2C_Industrie_und_Handel_Architektur_Köln_1914_Oct._Peter_Behrens_A._Molling_%26_Comp._KG_Hannover_Berlin.jpg'
+  },
+  {
+      'name' : 'Planimetria Esposizione Deutscher Werkbund',
+      'author' : '',
+      'date' : '1914',
+      'place' : 'Colonia',
+      'context' : 'Deutscher Werkbund',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Werkbund_Lageplan_1.jpg'
+  },
+  {
+      'name' : 'Portatoast',
+      'author' : 'Dresser produzione Hukin and Heath',
+      'date' : '1878',
+      'place' : 'Scozia',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://i0.wp.com/www.sbandiu.com/wp-content/uploads/2019/10/porta-toast.jpg?fit=846%2C946&ssl=1'
+  },
+  {
+      'name' : 'Portatoast',
+      'author' : 'Dresser produzione Hukin and Heath',
+      'date' : '1879',
+      'place' : 'Scozia',
+      'context' : 'Arts and Crafts',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Christopher_Dresser_-_Teapot_-_1879.jpg/1200px-Christopher_Dresser_-_Teapot_-_1879.jpg'
+  },
+  {
+      'name' : 'Torre dell acqua',
+      'author' : 'Hans Poelzig',
+      'date' : '1910',
+      'place' : 'Germania',
+      'context' : 'Tipizzazione Deutscher Werkbund',
+      'image' : 'https://www.ravennaedintorni.it/wp-content/uploads/2019/12/5-Hans-Poelzig-Wasserturm-Posen-1911.jpg'
+  },
+  {
+      'name' : 'Festhalle',
+      'author' : 'Peter Behrens',
+      'date' : '1914',
+      'place' : 'Colonia',
+      'context' : 'Esposizione Deutscher Werkbund',
+      'image' : 'https://i.pinimg.com/474x/2a/c4/96/2ac496bfbda971abbec9eb8daf7aeb64.jpg'
+  },
+  {
+      'name' : 'Teatro esposizione Deutscher Werkbund',
+      'author' : 'Henry Van de Velde',
+      'date' : '1914',
+      'place' : 'Colonia',
+      'context' : 'Esposizione Deutscher Werkbund',
+      'image' : 'https://www.theatre-architecture.eu/res/archive/325/044534.jpg?seek=1512223613'
+  },
+  {
+      'name' : 'Pianta del Teatro esposizione Deutscher Werkbund',
+      'author' : 'Henry Van de Velde',
+      'date' : '1914',
+      'place' : 'Colonia',
+      'context' : 'Esposizione Deutscher Werkbund',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhrOwdbiYD-rw5TZVSXBvBDIYy2mbD4xSHanHeeAf7m_WSyjhu8gmHZzIgPL-tT5NYnPbrQWfsKftTncWy7tVSO9oCEwem15uf7o8Yhw_vXKyN7HXcuR2twbrAef2hvP64xcl4dh89pe61/s320/image010.jpg'
+  },
+];
+
 const questions = [
   ...cap3,
   ...cap2,
   ...cap4,
+  ...cap6,
   ...cap7,
   ...cap8,
   ...cap9,
