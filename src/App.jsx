@@ -3075,7 +3075,7 @@ const cap5 = [
   },
 ];
 
-const questions = [
+const totalQuestions = [
   ...cap3,
   ...cap2,
   ...cap4,
@@ -3106,10 +3106,27 @@ const questions = [
 ];
 */
 
+function getRandomElements(arr, n) {
+  const selectedElements = [];
+  if(Array.isArray(arr) && arr.length > 0) {
+    while (selectedElements.length < n) {
+      const randomIndex = Math.floor(Math.random() * arr.length);
+      if (!selectedElements.includes(arr[randomIndex])) {
+        selectedElements.push(arr[randomIndex]);
+      }
+    }
+  }
+  
+  return selectedElements;
+}
+
 const TIMER_TIME = 10;
+const MAX_QUESTION = 10;
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [questions, setQuestions] = useState(getRandomElements(totalQuestions, MAX_QUESTION))
+  console.log(questions)
 
   const handleNextQuestion = () => {
     const nextQuestion = currentQuestion + 1;
@@ -3155,7 +3172,7 @@ function App() {
         <div>
         {componenteAttivo === 1 && (
           <div>
-            <Typography variant="h4">Domanda: {currentQuestion + 1}</Typography>
+            <Typography variant="h4">Domanda: {currentQuestion + 1} di {MAX_QUESTION}</Typography>
             <Typography variant="h4">{tempoRimanente} secondi rimanenti</Typography>
             {questions[currentQuestion] && (
               <QuestionContainer
