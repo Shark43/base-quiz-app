@@ -2218,10 +2218,318 @@ const cap8 = [
   },
 ];
 
+const cap7 = [
+  {
+      'name' : 'Padiglione del vetro',
+      'author' : 'Bruno Taut',
+      'date' : '1914',
+      'place' : 'Colonia',
+      'context' : 'Esposizione Deutscher Werkbund',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Taut_Glass_Pavilion_exterior_1914.jpg/260px-Taut_Glass_Pavilion_exterior_1914.jpg'
+  },
+  {
+      'name' : 'Cattedrale',
+      'author' : 'Feininger',
+      'date' : '1919',
+      'place' : 'Germania',
+      'context' : 'Consiglio del lavoro per larte',
+      'image' : 'https://wahooart.com/Art.nsf/O/8LSKQ8/$File/Lyonel-Feininger-Cathedral-of-Socialism.JPG'
+  },
+  {
+      'name' : 'Grande teatro',
+      'author' : 'Hans Poelzig',
+      'date' : '1918',
+      'place' : 'Berlino',
+      'context' : 'Architettura espressionista',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Grosses_Schauspielhaus.jpg'
+  },
+  {
+      'name' : 'Osservatorio astronomico di Einstein',
+      'author' : 'Eric Mendelsohn',
+      'date' : '1917',
+      'place' : 'Potsdam',
+      'context' : 'Architettura espressionista',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Einsteinturm_7443.jpg/640px-Einsteinturm_7443.jpg'
+  },
+  {
+      'name' : 'Casa unifamiliare al Weissenhof',
+      'author' : 'Hans Scharoun',
+      'date' : '1927',
+      'place' : 'Stoccarda',
+      'context' : 'Architettura espressionista',
+      'image' : 'https://www.archweb.com/wp-content/uploads/2023/07/House-33_Scharoun_01-1024x730.jpg'
+  },
+  {
+      'name' : 'Primo Gotheanum',
+      'author' : 'Dornach',
+      'date' : '1913',
+      'place' : 'Basilea',
+      'context' : '',
+      'image' : 'https://www.artedellio.it/wp-content/uploads/2023/01/01-vista-sud-ovest-pdf.jpg'
+  },
+  {
+      'name' : 'Secondo Gotheanum',
+      'author' : 'Steiner',
+      'date' : '1923',
+      'place' : 'Basilea',
+      'context' : 'Architettura espressionista',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Goetheanum_Dornach2.jpg'
+  },
+  {
+      'name' : 'Chilehaus',
+      'author' : 'Hoger',
+      'date' : '1923',
+      'place' : 'Amburgo',
+      'context' : 'Espressionismo nella forma ma ritorno al gotico',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/9/93/Chilehaus_-_Hamburg.jpg'
+  },
+  {
+      'name' : 'Manifesto dell architettura futurista',
+      'author' : 'Antonio Sant Elia',
+      'date' : '1914',
+      'place' : 'Italia',
+      'context' : 'Futurismo italiano',
+      'image' : 'https://lebbeuswoods.wordpress.com/wp-content/uploads/2009/11/se-man1copy.jpg?w=600&h=395'
+  },
+  {
+      'name' : 'Città nuova',
+      'author' : 'Antonio Sant Elia',
+      'date' : '1914',
+      'place' : 'Italia',
+      'context' : 'Futurismo italiano',
+      'image' : 'https://www.lombardiabeniculturali.it/img_db/bcoa/1m030/1/l/SC_D_1m030-00156_IMG-0000499855.jpg'
+  },
+  {
+      'name' : 'Sala futurista',
+      'author' : 'Fortunato Depero',
+      'date' : '1923',
+      'place' : 'Monza',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://catalogo.fondazionezeri.unibo.it/foto/200000/177200/176884.jpg'
+  },
+  {
+      'name' : 'Tazzina servizio Gancio',
+      'author' : 'Mazzotti produzione Ceramica Mazzotti',
+      'date' : '1929',
+      'place' : 'Albisola Marina',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://vintage-shop.it/107616-large_default/ANTICO-SERVIZIO-TE-CAFFE-TAZZE-PORCELLANA-M-G-A--Mazzotti-Giuseppe-Albisola-DECO.jpg'
+  },
+  {
+      'name' : 'Sala da pranzo futurista',
+      'author' : 'Dottori',
+      'date' : '1930',
+      'place' : 'Italia',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://www.anca-aste.it/photos/auctions/orig/333/347.jpg'
+  },
+  {
+      'name' : 'Brevetto e bottiglia Campari Soda',
+      'author' : 'Fortunato Depero',
+      'date' : '1932',
+      'place' : 'Italia',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://www.ilcontroverso.it/wp-content/uploads/2021/08/camparisoda_progettazione_smartalks-1-1024x725.jpg'
+  },
+  {
+      'name' : 'Manifesto Campari',
+      'author' : 'Fortunato Depero',
+      'date' : '1926',
+      'place' : 'Italia',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://depero.it/wp-content/uploads/2019/05/1926-27_CORDIAL_6.jpg'
+  },
+  {
+      'name' : 'Progetto centrale elettrica',
+      'author' : 'Antonio Sant Elia',
+      'date' : '1914',
+      'place' : 'Milano',
+      'context' : 'Futurismo italiano',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/0/06/Centrale_elettrica_Sant%27Elia.jpg'
+  },
+  {
+      'name' : 'Padiglione tipografico',
+      'author' : 'Fortunato Depero',
+      'date' : '1927',
+      'place' : 'III Biennale di Monza',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://depero.it/wp-content/uploads/2019/04/927_Pad-Libro-insieme.jpg'
+  },
+  {
+      'name' : 'Padiglione del Futurismo',
+      'author' : 'Enrico Prampolini',
+      'date' : '1928',
+      'place' : 'Esposizione internazionale di Torino',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://www.lindustriadellecostruzioni.it/ind_prod/wp-content/uploads/2023/07/prampolini-1928-torino-1024x770.jpg'
+  },
+  {
+      'name' : 'Padiglione delle comunità artigiane',
+      'author' : 'Sartoris',
+      'date' : '1928',
+      'place' : 'Esposizione internazionale di Torino',
+      'context' : 'Secondo Futurismo italiano',
+      'image' : 'https://scontent.ftrn3-1.fna.fbcdn.net/v/t31.18172-8/12615547_1701313166748799_7793529201284845178_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=R-O7mImfgboAb7wkvvR&_nc_ht=scontent.ftrn3-1.fna&oh=00_AfASKgNq4o4OfUhMu2oRyfGbAzwg5Bunb5pv4aFBSb3FRA&oe=66582189'
+  },
+  {
+      'name' : 'Mostra delle opere di Malevic',
+      'author' : 'Kazimir Malevic',
+      'date' : '1915',
+      'place' : 'San Pietroburgo',
+      'context' : 'Costruttivismo russo',
+      'image' : 'https://www.artesvelata.it/wp-content/uploads/2019/10/Opere-di-Malevič-nell’Art-Bureau-della-gallerista-russa-Nadeshda-Dobychina-Arte-Svelata.jpg'
+  },
+  {
+      'name' : 'Tribuna Lenin',
+      'author' : 'El Lissitzky',
+      'date' : '1920',
+      'place' : 'Russia',
+      'context' : 'Costruttivismo russo',
+      'image' : 'https://arthive.com/res/media/img/ox800/work/7ab/515668.jpg'
+  },
+  {
+      'name' : 'Spezza i bianchi con il cuneo rosso',
+      'author' : 'El Lissitzky',
+      'date' : '1919',
+      'place' : 'Russia',
+      'context' : 'Costruttivismo russo',
+      'image' : 'https://www.arengario.it/wp-content/uploads/2012/06/lissitzki-colpisci.jpg'
+  },
+  {
+      'name' : 'Monumento alla Terza Internazionale',
+      'author' : 'Tatlin',
+      'date' : '1920',
+      'place' : 'Russia',
+      'context' : 'Costruttivismo russo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Tatlin%27s_Tower_maket_1919_year.jpg/1200px-Tatlin%27s_Tower_maket_1919_year.jpg'
+  },
+  {
+      'name' : 'Grattacieli orizzontali',
+      'author' : 'El Lissitzky',
+      'date' : '1925',
+      'place' : 'Russia',
+      'context' : 'Costruttivismo russo',
+      'image' : 'https://mf.b37mrtl.ru/rbthmedia/images/2021.12/article/61bcb17b5be06a12f6239f29.jpg'
+  },
+  {
+      'name' : 'Progetto Palazzo del Lavoro',
+      'author' : 'Fratelli Vesnin',
+      'date' : '1923',
+      'place' : 'Russia',
+      'context' : 'Costruttivismo russo',
+      'image' : 'https://areeweb.polito.it/didattica/01CMD/catalog/017/1/040.jpg'
+  },
+  {
+      'name' : 'Club Rusakov',
+      'author' : 'Mel nikov',
+      'date' : '1927',
+      'place' : 'Mosca',
+      'context' : 'Costruttivismo russo, club operai',
+      'image' : 'http://theconstructivistproject.com/upload/images/77/64/77647c129b5036dd78ee9599ac4de710.jpg'
+  },
+  {
+      'name' : 'Club Zuev',
+      'author' : 'Golosov',
+      'date' : '1928',
+      'place' : 'Mosca',
+      'context' : 'Costruttivismo russo, club operai',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Zuev_Workers%27_Club_-_Moscow_%281928%29.jpg'
+  },
+  {
+      'name' : 'Narkomfin (Commissariato del popolo per le finanze)',
+      'author' : 'Ginzburg e Milinis',
+      'date' : '1928',
+      'place' : 'Mosca',
+      'context' : 'Costruttivismo russo',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Moscow%2C_Narkomfin_building_in_May_2021_03.jpg/250px-Moscow%2C_Narkomfin_building_in_May_2021_03.jpg'
+  },
+  {
+      'name' : 'Palazzo dei Soviet',
+      'author' : 'Boris Iofan',
+      'date' : '1930',
+      'place' : 'Russia',
+      'context' : 'Ritorno al tradizionalismo',
+      'image' : 'https://www.wearch.eu/wp-content/uploads/2022/03/Iofan-fig-6_web.jpg'
+  },
+  {
+      'name' : 'Borsa di Amsterdam',
+      'author' : 'Berlage',
+      'date' : '1898',
+      'place' : 'Amsterdam',
+      'context' : 'Classicismo esterno, moderno interno',
+      'image' : 'https://mywowo.net/media/images/cache/amsterdam_quartiere_luci_rosse_02_dintorni_jpg_640_336_cover_70.jpg'
+  },
+  {
+      'name' : 'Villa Henny',
+      'author' : 'Robert vant Hoff',
+      'date' : '1914',
+      'place' : 'Utrecht',
+      'context' : 'Precursore neoplasticismo',
+      'image' : 'https://miro.medium.com/v2/resize:fit:1200/1*bg2E7bmFmsu2G0Dzd3q1RQ.jpeg'
+  },
+  {
+      'name' : 'Sedia rosso-blu',
+      'author' : 'Rietveld',
+      'date' : '1917',
+      'place' : 'Olanda',
+      'context' : 'Neoplasticismo olandese',
+      'image' : 'https://classicdesign.it/media/036/635_red_and_blue_3.m.webp'
+  },
+  {
+      'name' : 'Casa Schroder-Schrader',
+      'author' : 'Rietveld',
+      'date' : '1923',
+      'place' : 'Utrecht',
+      'context' : 'Neoplasticismo olandese',
+      'image' : 'https://it.wikipedia.org/wiki/File:Rietveld_Schröderhuis_HayKranen-20.JPG'
+  },
+  {
+      'name' : 'Interno cafè lAubette',
+      'author' : 'Theo van Doesburg',
+      'date' : '1928',
+      'place' : 'Strasburgo',
+      'context' : 'Neoplasticismo olandese',
+      'image' : 'https://images.adsttc.com/media/images/578b/1c82/e58e/cec4/df00/0037/newsletter/CTL_1.jpg?1468734575'
+  },
+  {
+      'name' : 'Cafè de Unie',
+      'author' : 'Oud',
+      'date' : '1925',
+      'place' : 'Rotterdam',
+      'context' : 'Neoplasticismo olandese',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/8/89/Rotterdam_mauritsweg_de_unie2011.jpg'
+  },
+  {
+      'name' : 'Interno casa Schroder-Schrader',
+      'author' : 'Rietveld',
+      'date' : '1923',
+      'place' : 'Utrecht',
+      'context' : 'Neoplasticismo olandese',
+      'image' : 'https://www.designbestmagazine.com/wp-content/gallery/casa-schroder_-il-de-stijl-incontra-design-e-architettura-a-utrecht/table-schroder-house-rietveld-utrecht.jpg'
+  },
+  {
+      'name' : 'Tavolino casa Schroder-Schrader',
+      'author' : 'Rietveld',
+      'date' : '1923',
+      'place' : 'Utrecht',
+      'context' : 'Neoplasticismo olandese',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThqPVXiKavfvfWc1vQr-ikIjAky_XRLAGd8rBqlXhadJl1SA8-iwzKtvjs89Gacy-XKJU&usqp=CAU'
+  },
+  {
+      'name' : 'Progetto interno cafè lAubette',
+      'author' : 'Theo van Doesburg',
+      'date' : '1928',
+      'place' : 'Strasburgo',
+      'context' : 'Neoplasticismo olandese',
+      'image' : 'https://c8.alamy.com/compit/rdb605/design-per-soffitto-e-pareti-di-cafe-aubette-a-strasburgo-museo-galerie-gmurzynska-autore-doesburg-theo-van-rdb605.jpg'
+  },
+];
+
 const questions = [
   ...cap3,
   ...cap2,
   ...cap4,
+  ...cap7,
   ...cap8,
   ...cap9,
   ...cap10,
