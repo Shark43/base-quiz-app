@@ -1231,12 +1231,400 @@ const cap11 = [
   },
 ];
 
+const cap9 = [
+  {
+      'name' : 'Cassa di orologio decorato',
+      'author' : 'Le Corbusier',
+      'date' : '1902',
+      'place' : 'Esposizione internazionale di Arti Decorative di Torino',
+      'context' : 'Movimento Moderno',
+      'image' : 'http://www.instoria.it/home/le_corbusier_I.jpg'
+  },
+  {
+      'name' : 'Villa Schwob',
+      'author' : 'Le Corbusier',
+      'date' : '1916',
+      'place' : 'Svizzera',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/CF05.jpg/520px-CF05.jpg'
+  },
+  {
+      'name' : 'Maison Dom-ino',
+      'author' : 'Le Corbusier',
+      'date' : '1914',
+      'place' : 'Svizzera',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/architettura/2012/10/31/dalla-dom-ino-alla-polykatoikia/big_398303_5021_02_Le-Corbusier1.jpg.foto.rmedium.jpg'
+  },
+  {
+      'name' : 'Padiglione dellEsprit Nouveau',
+      'author' : 'Le Corbusier',
+      'date' : '1925',
+      'place' : 'Parigi',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://static.bolognawelcome.com/immagini/d6/f7/7f/ff/20230207094805_landscape_16_9_desktop.jpg'
+  },
+  {
+      'name' : 'Una ville contemporaine',
+      'author' : 'Le Corbusier',
+      'date' : '1922',
+      'place' : 'Parigi',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://images.adsttc.com/media/images/51fa/dfbb/e8e4/4ea2/b000/0010/medium_jpg/ville_radieuse_(1).jpg?1375395768'
+  },
+  {
+      'name' : 'Quartiere operaio di Pessac',
+      'author' : 'Le Corbusier',
+      'date' : '1925',
+      'place' : 'Pessac',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy82pDE0IURwzdU4SB5OSCtXSZarlaBBjEt8gu1Bfyf7lSfOEJVTRTpOHHPmcnohQc5nK1fBD51cMn2LH9zoBFUQEGk-rQV04m85gWOOIT3VelpYNiwV8LIFYBHV7Se2-xaj9S28CXG00/s320/DSCN0243.JPG'
+  },
+  {
+      'name' : 'Casa per il Weissenhof',
+      'author' : 'Le Corbusier',
+      'date' : '1927',
+      'place' : 'Stoccarda',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuAkjOa9uRyRjvsWTer3LpMpjx32RvkXmnoA&usqp=CAU'
+  },
+  {
+      'name' : 'Ville Savoye',
+      'author' : 'Le Corbusier',
+      'date' : '1929',
+      'place' : 'Poissy - Francia',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/VillaSavoye.jpg/500px-VillaSavoye.jpg'
+  },
+  {
+      'name' : 'Concorso per il Palazzo delle Società',
+      'author' : 'Le Corbusier',
+      'date' : '1927',
+      'place' : 'Ginevra',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://areeweb.polito.it/didattica/01CMD/catalog/023/1/030.jpg'
+  },
+  {
+      'name' : 'Concorso palazzo del centro Soyus',
+      'author' : 'Le Corbusier',
+      'date' : '1929',
+      'place' : 'Mosca',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://areeweb.polito.it/didattica/01CMD/catalog/023/1/043.jpg'
+  },
+  {
+      'name' : 'Citè de Refuge',
+      'author' : 'Le Corbusier',
+      'date' : '1929',
+      'place' : 'Parigi',
+      'context' : 'Movimento Moderno - Casa economica e collettiva',
+      'image' : 'https://www.fondationlecorbusier.fr/wp-content/uploads/2022/04/armee-du-salut-cite-de-refuge-flc-adagp-olivier-martin-gambier-1.jpg'
+  },
+  {
+      'name' : 'Modulor',
+      'author' : 'Le Corbusier',
+      'date' : '1942',
+      'place' : 'Francia',
+      'context' : 'Movimento Moderno durante 2ª G.M.',
+      'image' : 'https://web.math.unifi.it/users/mathesis/sezione/arte/img/44.jpg'
+  },
+  {
+      'name' : 'Plan Voisin',
+      'author' : 'Le Corbusier',
+      'date' : '1925',
+      'place' : 'PArigi',
+      'context' : 'Movimento Moderno - Carta di Atene',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Plan_Voisin_model.jpg/440px-Plan_Voisin_model.jpg'
+  },
+  {
+      'name' : 'Officine Fagus',
+      'author' : 'Walter Gropius e Adolf Meyer',
+      'date' : '1911',
+      'place' : 'Alfeld - Germania',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Fagus_Gropius_Hauptgebaeude_200705_wiki_front.jpg/260px-Fagus_Gropius_Hauptgebaeude_200705_wiki_front.jpg'
+  },
+  {
+      'name' : 'Edificio industriale modello',
+      'author' : 'Walter Gropius e Adolf Meyer',
+      'date' : '1914',
+      'place' : 'Esposizione Werkbund di Colonia',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://i.pinimg.com/originals/c3/22/25/c322251e54ad5a6ce791d9ad25739426.jpg'
+  },
+  {
+      'name' : 'Casa Sommerfeld',
+      'author' : 'Walter Gropius e Adolf Meyer',
+      'date' : '1920',
+      'place' : 'Berlino',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://en.wikiarquitectura.com/wp-content/uploads/2024/02/Sommerfeld-House-Gropius-Meyer.jpg'
+  },
+  {
+      'name' : 'Monumento ai caduti di marzo',
+      'author' : 'Walter Gropius',
+      'date' : '1922',
+      'place' : 'Berlino',
+      'context' : 'Bauhaus',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Monument_to_the_March_dead.jpg/800px-Monument_to_the_March_dead.jpg'
+  },
+  {
+      'name' : 'Progetto per il Chicago Tribune',
+      'author' : 'Walter Gropius',
+      'date' : '1922',
+      'place' : 'Chicago',
+      'context' : 'Bauhaus',
+      'image' : 'https://bauhauskooperation.com/fileadmin/_processed_/d/6/csm_Gropius_Meyer_Chicago_Tribune_Building_0b9d776f28.jpg'
+  },
+  {
+      'name' : 'Casa am Horn',
+      'author' : 'G. Muche',
+      'date' : '1923',
+      'place' : 'Weimar',
+      'context' : 'Bauhaus',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Haus_am_Horn_04.JPG/520px-Haus_am_Horn_04.JPG'
+  },
+  {
+      'name' : 'Sede del Bauhaus',
+      'author' : 'Walter Gropius',
+      'date' : '1925',
+      'place' : 'Dessau',
+      'context' : 'Bauhaus Dessau',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/speciali/bauhaus-100/gallery/2019/stefano-barattini-omaggia-il-bauhaus-con-un-progetto-fotografico/domus-bauhaus-barattini-01.jpg.foto.rmedium.jpg'
+  },
+  {
+      'name' : 'Quartiere Torten',
+      'author' : 'Walter Gropius',
+      'date' : '1926',
+      'place' : 'Dessau',
+      'context' : 'Bauhaus',
+      'image' : 'https://l450v.alamy.com/450vit/2nprr0y/1920-karlsruhe-germania-le-case-popolari-costruite-dalla-celebre-bauhaus-tedesca-walter-gropius-berlino-1883-boston-1969-architettura-architettura-architettura-abitazione-casa-casa-avantguardia-avantgarde-razionalismo-razionalista-weimar-germania-archivio-gbb-2nprr0y.jpg'
+  },
+  {
+      'name' : 'Casa Gropius',
+      'author' : 'Walter Gropius',
+      'date' : '1938',
+      'place' : 'USA - Massachussets',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/0/03/Walter_Gropius_photo_Gropius_house_Lincoln_MA.jpg'
+  },
+  {
+      'name' : 'Grattacielo in vetro',
+      'author' : 'Mies van der Rohe',
+      'date' : '1921',
+      'place' : '',
+      'context' : 'Influenza espressionista',
+      'image' : 'https://www.frontiere.eu/wp-content/uploads/2017/01/Figura-57-Ludwig-Mies-Van-Der-Rohe-Grattacielo-di-Vetro-in-Via-Friedrich-di-Berl-1921.jpg'
+  },
+  {
+      'name' : 'Grattacielo in vetro',
+      'author' : 'Mies van der Rohe',
+      'date' : '1921',
+      'place' : '',
+      'context' : 'Influenza espressionista',
+      'image' : 'https://i.pinimg.com/originals/c4/a7/59/c4a7599dd9a86b4d3b31b3a224d1b71c.jpg'
+  },
+  {
+      'name' : 'Monumento a Karl Liebknecht e Rosa Luxemburg',
+      'author' : 'Mies van der Rohe',
+      'date' : '1925',
+      'place' : 'Berlino',
+      'context' : 'Ricerca neoplastica ma utilizzo del mattone',
+      'image' : 'https://www.urbipedia.org/w/images/thumb/3/3f/Ludwig_Mies_van_der_Rohe%2C_Monumento_a_Rosa_Luxemburg_y_Karl_Liebknecht.2.jpg/183px-Ludwig_Mies_van_der_Rohe%2C_Monumento_a_Rosa_Luxemburg_y_Karl_Liebknecht.2.jpg'
+  },
+  {
+      'name' : 'Direttore Esposizione del Weissenhof Siedlung',
+      'author' : 'Mies van der Rohe',
+      'date' : '1927',
+      'place' : 'Esposizione del Weissenhof Siedlung Stoccarda',
+      'context' : 'Movimento Moderno - abitazione basso costo',
+      'image' : 'https://static.designboom.com/wp-content/uploads/2021/08/weissenhof-stuttgart-estate-mies-van-der-rohe-le-corbusier-designboom-600-1.jpg'
+  },
+  {
+      'name' : 'Padiglione della Germania',
+      'author' : 'Mies van der Rohe',
+      'date' : '1929',
+      'place' : 'Esposizione Universale di Barcellona',
+      'context' : 'Movimento Moderno - less is more',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/640px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg'
+  },
+  {
+      'name' : 'Villa Tugendhat',
+      'author' : 'Mies van der Rohe',
+      'date' : '1930',
+      'place' : 'Brno - Repubblica Ceca',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8bLqRCAHEkGtICHXmW7Tgqxi7znzX2vbJ_g&usqp=CAU'
+  },
+  {
+      'name' : 'Perriand su LC4',
+      'author' : 'Le Corbusier',
+      'date' : '1928',
+      'place' : '',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://static01.nyt.com/images/2019/11/22/arts/20perriand1/merlin_162821814_d8391123-c056-4832-9b93-885dfce76b4f-superJumbo.jpg?quality=75&auto=webp'
+  },
+  {
+      'name' : 'R. Eames su Lounge chair',
+      'author' : 'Charles Eames',
+      'date' : '1952',
+      'place' : '',
+      'context' : 'Ruolo della donna nella progettazione',
+      'image' : 'https://www.atomic-ranch.com/wp-content/uploads/2020/02/Ray-Eames-in-Eames-Lounge-Chair-Prototype-Web-e1582915951357.jpg'
+  },
+  {
+      'name' : 'Studi per il progetto razionale dellalloggio minimo',
+      'author' : 'Klein',
+      'date' : '1928',
+      'place' : '',
+      'context' : 'Movimento Moderno - 2º CIAM',
+      'image' : 'https://www.famagazine.it/public/journals/1/images/59-60/rama_002.jpg'
+  },
+  {
+      'name' : 'Georgsgarten',
+      'author' : 'Otto Haesler',
+      'date' : '1924',
+      'place' : 'Celle - Germania',
+      'context' : 'Casa popolare',
+      'image' : 'http://otto-haesler-initiative.de/sites/default/files/styles/medium/public/bauten/georgsgarten-8.jpg?itok=F0fSNHoy'
+  },
+  {
+      'name' : 'Hufeisen Siedlung',
+      'author' : 'Bruno Taut',
+      'date' : '1925',
+      'place' : 'Berlino',
+      'context' : 'Moviemnto Moderno',
+      'image' : 'http://www.capitalieuropee.altervista.org/1/117/001s.jpg'
+  },
+  {
+      'name' : 'Siemensstadt',
+      'author' : 'Hans Scharoun',
+      'date' : '1929',
+      'place' : 'Berlino',
+      'context' : 'Moviemnto Moderno',
+      'image' : 'https://vonortzuort.reisen/wp-content/uploads/2019/07/panzerkreuzer.jpg'
+  },
+  {
+      'name' : 'Bruchfeldstrasse',
+      'author' : 'E. May',
+      'date' : '1926',
+      'place' : 'Francoforte',
+      'context' : 'Movimento Moderno - Costruzione alloggi',
+      'image' : 'https://i.pinimg.com/736x/fe/e7/3e/fee73ef0ed40549d1492d01bbc34cd8f.jpg'
+  },
+  {
+      'name' : 'Romerstadt',
+      'author' : 'E. May',
+      'date' : '1927',
+      'place' : 'Francoforte',
+      'context' : 'Movimento Moderno - Costruzione alloggi',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi4m4s4yegPKjJA9yEGhUn51DqPsM6ZCfN-g&usqp=CAU'
+  },
+  {
+      'name' : 'Professor Jodl Hof',
+      'author' : 'Perco e Frass',
+      'date' : '1925',
+      'place' : 'Vienna',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://cdn.loquis.com/prod/loquis/pictures/269ecaf6-1871-46cd-8800-6cfd3609cc6d-720.jpg'
+  },
+  {
+      'name' : 'Matteotti Hof',
+      'author' : 'Schmid e Aichinger',
+      'date' : '1926',
+      'place' : 'Vienna',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://cdn.loquis.com/prod/loquis/pictures/a619d661-d3c8-4614-bd42-109a0a438831-720.jpg'
+  },
+  {
+      'name' : 'Karl Marx Hof',
+      'author' : 'k. Ehn',
+      'date' : '1927',
+      'place' : 'Vienna',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Döbling_%28Wien%29_-_Karl-Marx-Hof.JPG/520px-Döbling_%28Wien%29_-_Karl-Marx-Hof.JPG'
+  },
+  {
+      'name' : 'George Washington Hof',
+      'author' : 'K. Krist e R. Oerley',
+      'date' : '1927',
+      'place' : 'Vienna',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/George_Washington-Hof.jpg/927px-George_Washington-Hof.jpg?20070319104413'
+  },
+  {
+      'name' : 'Da Dageraad',
+      'author' : 'Kramer',
+      'date' : '1918',
+      'place' : 'Amsterdam',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyGKyNHVG8EU0YJZdIh6sNBsAYp9vsPnw6g&usqp=CAU'
+  },
+  {
+      'name' : 'Betondorp',
+      'author' : 'J.B. van Loghem',
+      'date' : '1921',
+      'place' : 'Amsterdam',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Veeteeltstraat_Amsterdam.jpg/500px-Veeteeltstraat_Amsterdam.jpg'
+  },
+  {
+      'name' : 'Hoek van Holland',
+      'author' : 'Oud',
+      'date' : '1924',
+      'place' : 'Rotterdam',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://www.matharchitecten.nl/wp-content/uploads/2018/12/1-18.jpg'
+  },
+  {
+      'name' : 'Prototipo case a schiera',
+      'author' : 'Oud',
+      'date' : '1927',
+      'place' : 'Weissenhof Siedlung - Stoccarda',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://www.archweb.it/dwg/arch_arredi_famosi/Oud/photos/Oud_weissenhof_house_1r.jpg'
+  },
+  {
+      'name' : 'Blocco residenziale Spangen',
+      'author' : 'Brinkman',
+      'date' : '1919',
+      'place' : 'Rotterdam',
+      'context' : 'Movimento Moderno - Hofe',
+      'image' : 'https://www.architecturalrecord.com/ext/resources/archives/news/2014/01/images/slideshow/140116/1.jpg'
+  },
+  {
+      'name' : 'Hotel nord sud',
+      'author' : 'Lurcat',
+      'date' : '1929',
+      'place' : 'Corsica',
+      'context' : 'Movimento Moderno',
+      'image' : 'https://i0.wp.com/misfitsarchitecture.com/wp-content/uploads/2013/01/untitled1.jpg?w=752&ssl=1'
+  },
+  {
+      'name' : 'Cucina di Francoforte',
+      'author' : 'Shuttle-Lihotzky',
+      'date' : '1926',
+      'place' : 'Francoforte',
+      'context' : 'Ruolo della donna nella progettazione - Movimento Moderno',
+      'image' : 'https://hiddenarchitecture.net/wp-content/uploads/2017/11/frankfurtkitchen_01.jpg'
+  },
+  {
+      'name' : 'Armadi PAX',
+      'author' : 'IKEA',
+      'date' : '1995',
+      'place' : 'Svezia',
+      'context' : 'Arredi standard',
+      'image' : 'https://www.ikea.com/it/it/images/products/pax-combinazione-di-guardaroba-effetto-rovere-con-mordente-bianco__0962027_ph171206_s5.jpg'
+  },
+  
+];
+
 const questions = [
   ...cap3,
   ...cap2,
   ...cap4,
 
-
+  ...cap9,
   ...cap12
 ]
 /*[
