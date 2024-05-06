@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Typography } from '@material-ui/core';
+import React, { useState, useEffect } from 'react';
+import { Typography, Button } from '@material-ui/core';
 import './App.css';
 import QuestionContainer from './QuestionContainer';
 
@@ -599,6 +599,9 @@ const questions = [
   }
 ];
 */
+
+const TIMER_TIME = 10;
+
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
@@ -606,21 +609,66 @@ function App() {
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
+      setComponenteAttivo(1); // Passa al componente 1
+      setTempoRimanente(TIMER_TIME); // Resetta il timer
     } else {
       alert('Quiz completato!'); // Add logic to handle quiz completion
     }
+  };
+
+  const [componenteAttivo, setComponenteAttivo] = useState(1); // Inizia con componente 1
+  const [tempoRimanente, setTempoRimanente] = useState(TIMER_TIME); // 1 minuto (60 secondi)
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setTempoRimanente((tempoRimanente) => {
+        if (tempoRimanente === 0) {
+          clearInterval(intervalId);
+          setComponenteAttivo(2); // Passa al componente 2
+          return TIMER_TIME; // Resetta il timer
+        }
+        return tempoRimanente - 1;
+      });
+    }, 1000); // Aggiorna ogni secondo
+  
+    return () => {
+      clearInterval(intervalId); // Pulisci l'intervallo al termine o al cambio componente
+    };
+  }, [componenteAttivo]); // Aggiorna l'intervallo solo quando cambia componenteAttivo
+
+  const cambiaComponente = () => {
+    handleNextQuestion();
+    setComponenteAttivo(1); // Passa al componente 1
+    setTempoRimanente(TIMER_TIME); // Resetta il timer
   };
 
   return (
     <div className="App">
       <Typography variant="h1">Quiz App - Arte</Typography>
 
-      {questions[currentQuestion] && (
-        <QuestionContainer
-          question={questions[currentQuestion]}
-          onNextQuestion={handleNextQuestion}
-        />
-      )}
+        <div>
+        {componenteAttivo === 1 && (
+          <div>
+            <Typography variant="h4">Domanda: {currentQuestion + 1}</Typography>
+            <Typography variant="h4">{tempoRimanente} secondi rimanenti</Typography>
+            {questions[currentQuestion] && (
+              <QuestionContainer
+                question={questions[currentQuestion]}
+                onNextQuestion={handleNextQuestion}
+              />
+            )}
+          </div>
+        )}
+
+        {componenteAttivo === 2 && (
+          <div>
+            <Typography variant="h3">Tempo scaduto!</Typography>
+            <Button variant="contained" onClick={handleNextQuestion}>
+              Prossima domanda
+            </Button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
