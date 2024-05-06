@@ -577,10 +577,352 @@ const cap4 = [
   
 ];
 
+const cap12 = [
+  {
+      'name' : 'Greater London Plan',
+      'author' : 'P. Abercrombie e Forshaw',
+      'date' : '1944',
+      'place' : 'Londra',
+      'context' : 'Ricostruzione dopo bombardamenti 2ª G.M.',
+      'image' : 'https://live.staticflickr.com/65535/48013708571_a66bbfc0bd_b.jpg'
+  },
+  {
+      'name' : 'Scuola superiore Hunstanton',
+      'author' : 'A. e P. Smithson',
+      'date' : '1951',
+      'place' : 'Norfolk - UK',
+      'context' : 'Brutalismo',
+      'image' : 'https://i.pinimg.com/474x/7e/83/36/7e83364492d9aed8a751ed156d5b85d8.jpg'
+  },
+  {
+      'name' : 'Sede del giornale The Economist',
+      'author' : 'A. e P. Smithson',
+      'date' : '1963',
+      'place' : 'Londra',
+      'context' : 'Brutalismo',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEDpGOIkV1PlgAkv8oIpORsyoeNOaxeu0EcdK34ZqXpLivHAFtV9_NGbuNvxf5n2uqfuj_5tN1LOTRB3w9pT5X6PynlQsLdT_PnPRyXoMB2wAO_xdtwLN6bL3PkOVf7zVfqwQQlj81lGQ7/s1600/IMG_3275.JPG'
+  },
+  {
+      'name' : 'Chiesa St. Joseph',
+      'author' : 'A. Perret',
+      'date' : '1945',
+      'place' : 'Le Havre',
+      'context' : 'Ricostruzione post 2ª G.M.',
+      'image' : 'https://normandielovers.fr/wp-content/uploads/2023/08/visite-eglise-saint-joseph-le-Havre-4.jpeg'
+  },
+  {
+      'name' : 'Ricostruzione Le Havre',
+      'author' : 'A. Perret',
+      'date' : '1945',
+      'place' : 'Le Havre',
+      'context' : 'Ricostruzione post 2ª G.M.',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Plan_de_la_ville_du_Havre.png/400px-Plan_de_la_ville_du_Havre.png'
+  },
+  {
+      'name' : 'Unitè dHabitation',
+      'author' : 'Le Corbusier',
+      'date' : '1945',
+      'place' : 'Marsiglia',
+      'context' : 'Movimento Moderno nel dopoguerra',
+      'image' : 'https://archeyes.com/wp-content/uploads/2023/09/L-Unite-d-Habitation-de-Marseille-Le-Corbusier-Apartments-France-Concrete-ArchEyes-exterior.jpg'
+  },
+  {
+      'name' : 'Villes nouvelles',
+      'author' : '',
+      'date' : '1965',
+      'place' : 'Francia',
+      'context' : 'Anni 60 del 900 per risolvere sovraffollamento',
+      'image' : 'https://journals.openedition.org/eps/docannexe/image/4728/img-1.jpg'
+  },
+  {
+      'name' : 'Francobollo quartiere Hansaviertel',
+      'author' : '',
+      'date' : '1957',
+      'place' : 'Esposizione Interbau - Berlino',
+      'context' : 'Movimento Moderno nel dopoguerra',
+      'image' : 'https://c8.alamy.com/compit/2h69ah9/germania-berlino-circa-1957-un-francobollo-dalla-germania-berlino-che-mostra-il-modello-dell-hansaviertel-mostra-internazionale-di-costruzioni-interbau-2h69ah9.jpg'
+  },
+  {
+      'name' : 'Filarmonica',
+      'author' : 'H. Scharoun',
+      'date' : '1956',
+      'place' : 'Berlino',
+      'context' : 'Opera espressionista - Germania dopo 2ª G.M.',
+      'image' : 'https://images.adsttc.com/media/images/5037/fabf/28ba/0d59/9b00/0766/large_jpg/stringio.jpg?1414206709'
+  },
+  {
+      'name' : 'Monumento alle Fosse Ardeatine',
+      'author' : 'Aprile, Calcaprina, Fiorentino e Perugini',
+      'date' : '1945',
+      'place' : 'Roma',
+      'context' : 'Ricostruzione Italia dopo 2ª G.M - Rottura con il passato',
+      'image' : 'https://hicarquitectura.com/wp-content/uploads/2016/10/18.jpg'
+  },
+  {
+      'name' : 'Monumento ai caduti ai campi di concentramento',
+      'author' : 'Belgiojoso, Peresutti e Rogers',
+      'date' : '1947',
+      'place' : 'Milano',
+      'context' : 'Italia post 2ª G.M. - Razionalismo',
+      'image' : 'https://lh3.googleusercontent.com/proxy/D6H9w3I10cVJtVB9WZUy-Haz_yVk0Pyd7JCEALqk9cf7PbbcBewvRsvqkqfQM3g8lNs-3Jz2kjNfQreo4e1hzHa5gin0lCdU49Ky7TpFwctZ62uPzGAf4Mlo4vu1NX6uSdGpP5XKNtMIH6-oQwea0nH49quqnCEOeNuOPCIoK5J98LrJVtmq9_ojxP3jKT8OP5pIxpzFTA'
+  },
+  {
+      'name' : 'Quartiere Tiburtino',
+      'author' : 'L. Quaroni',
+      'date' : '1950',
+      'place' : 'Roma',
+      'context' : 'Neorealismo in architettura',
+      'image' : 'https://archidiap.com/beta/assets/uploads/2015/06/img145111-1024x970.jpg'
+  },
+  {
+      'name' : 'Quartiere Falchera',
+      'author' : 'G. Astengo',
+      'date' : '1951',
+      'place' : 'Torino',
+      'context' : 'Ricostruzione post 2ª G.M.',
+      'image' : 'https://atlas.landscapefor.eu/images/atlas/luoghi_contemporaneo/falchera/immagini/planimetria.jpg'
+  },
+  {
+      'name' : 'Quartiere QT8',
+      'author' : 'P. Bottoni',
+      'date' : '1946',
+      'place' : 'Milano',
+      'context' : 'Ricostruzione post 2ª G.M. - Innovazione tecnologica - Prefabbricazione',
+      'image' : 'https://oami.s3.eu-south-1.amazonaws.com/legacy/cache/arch_img_big/media/resize/copy/0/43/2011-04-07-15-16-57-qt8-01.jpg'
+  },
+  {
+      'name' : 'Quartiere Forte Quezzi',
+      'author' : 'L.C. Daneri',
+      'date' : '1956',
+      'place' : 'Genova',
+      'context' : 'Ricostruzione post 2ª G.M. - Influenza Le Corbusier',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/8/82/Genova_Forte_Quezzi-Torre_Quezzi.jpg'
+  },
+  {
+      'name' : 'Gallerie di Palazzo Bianco',
+      'author' : 'F. Albini',
+      'date' : '1952',
+      'place' : 'Genova',
+      'context' : 'Musei durante Ricostruzione post 2ª G.M.',
+      'image' : 'https://static2-living.corriereobjects.it/wp-content/uploads/2017/01/29_9.jpg'
+  },
+  {
+      'name' : 'Allestimento Museo Castello Sforzesco - Pietà Rondanini',
+      'author' : 'BBPR',
+      'date' : '1956',
+      'place' : 'Milano',
+      'context' : 'Musei durante Ricostruzione post 2ª G.M.',
+      'image' : 'https://italics.art/wp-content/uploads/2021/04/MASSIMODECARLO-TIP-LIBERO-702x1024.jpeg'
+  },
+  {
+      'name' : 'Fondazione Querini Stampalia',
+      'author' : 'C. Scarpa',
+      'date' : '1949',
+      'place' : 'Venezia',
+      'context' : 'Musei durante Ricostruzione post 2ª G.M.',
+      'image' : 'https://media-cdn.tripadvisor.com/media/photo-s/11/65/42/50/photo6jpg.jpg'
+  },
+  {
+      'name' : 'Cappella',
+      'author' : 'Le Corbusier',
+      'date' : '1950',
+      'place' : 'Ronchamp - Francia',
+      'context' : 'Movimento moderno - Edificio sacro - Volume plastico',
+      'image' : 'https://i0.wp.com/architectureandwonder.com/wp-content/uploads/2022/02/RH1513-0001.jpg?fit=1024%2C803&ssl=1'
+  },
+  {
+      'name' : 'Convento Sainte-Marie de la Turette',
+      'author' : 'Le Corbusier',
+      'date' : '1957',
+      'place' : 'Lione',
+      'context' : 'Movimento moderno - Edificio sacro',
+      'image' : 'https://www.corriere.it/methode_image/2021/08/05/Tecnologia/Foto%20Tecnologia%20-%20Trattate/Couvent_Sainte-Marie_de_La_Tourette-kY1C-U3280913279634AlE-593x443@Corriere-Web-Sezioni.jpg'
+  },
+  {
+      'name' : 'Padiglione Philips',
+      'author' : 'Le Corbusier',
+      'date' : '1958',
+      'place' : 'Bruxelles',
+      'context' : 'Esposizione mondiale di Bruxelles',
+      'image' : 'https://miro.medium.com/v2/resize:fit:1358/1*rbnGzRJKAYH-3bYejvEMVA.jpeg'
+  },
+  {
+      'name' : 'MetLife',
+      'author' : 'W. Gropius',
+      'date' : '1958',
+      'place' : 'New York',
+      'context' : 'Gropius dopo 2ª G.M.',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Walter_Gropius_photo_MetLife_Building_fassade_New_York_USA_2005-10-03.jpg'
+  },
+  {
+      'name' : 'Ambasciata americana',
+      'author' : 'W. Gropius',
+      'date' : '1956',
+      'place' : 'Atene',
+      'context' : 'Gropius dopo 2ª G.M. - Evocazione classicità senza ricadere in imitazione',
+      'image' : 'https://i.pinimg.com/originals/ef/49/35/ef4935b325533cf013844e328802050a.jpg'
+  },
+  {
+      'name' : 'Crawn Hall IIT',
+      'author' : 'L. Mies van der Rohe',
+      'date' : '1950',
+      'place' : 'Chicago',
+      'context' : 'Direzione architettura IIt - Mies van der Rohe nel dopoguerra - Estrema semplificazione e sottrazione',
+      'image' : 'https://arch.iit.edu/img/34302d33/5804-l.jpg'
+  },
+  {
+      'name' : 'Casa Farnsworth',
+      'author' : 'L. Mies van der Rohe',
+      'date' : '1945',
+      'place' : 'Illinois - USA',
+      'context' : 'Mies van der Rohe nel dopoguerra - Estrema semplificazione e sottrazione',
+      'image' : 'https://www.domusweb.it/content/dam/domusweb/it/architecture/gallery/2020/07/03/la-storia-della-casa-disegnata-da-mies-van-der-rohe-per-edith-farnsworth/gallery/domus-mies-van-der-rohe-farnsworth-house-4.jpg.foto.rmedium.png'
+  },
+  {
+      'name' : 'Seagram Building',
+      'author' : 'L. Mies van der Rohe',
+      'date' : '1954',
+      'place' : 'New York',
+      'context' : 'Mies van der Rohe in USA nel dopoguerra',
+      'image' : 'https://untappedcities.com/wp-content/uploads/2015/10/Seagram-Building-Park-Avenue-Secrets-Landmark-NYC-4.jpg'
+  },
+  {
+      'name' : 'Piazza Seagram Building',
+      'author' : 'L. Mies van der Rohe',
+      'date' : '1954',
+      'place' : 'New York',
+      'context' : 'Mies van der Rohe in USA nel dopoguerra',
+      'image' : 'https://nypost.com/wp-content/uploads/sites/2/2016/12/seagram-building.jpg?quality=75&strip=all'
+  },
+  {
+      'name' : 'Nuova galleria nazionale',
+      'author' : 'L. Mies van der Rohe',
+      'date' : '1962',
+      'place' : 'Berlino',
+      'context' : 'Ultime opere di van der Rohe - Estrema semplificazione e sottrazione',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Berlin_Neue_Nationalgalerie_asv2021-11_img1.jpg'
+  },
+  {
+      'name' : 'Piano per Chandigarh',
+      'author' : 'Le Corbusier e P. Jeanneret',
+      'date' : '1950',
+      'place' : 'Chandigarh - Punjab - India',
+      'context' : 'Movimento Moderno - Costruzione capitali',
+      'image' : 'https://www.archweb.it/dwg/arch_arredi_famosi/le_corbusier/chandigarh/chandigarh_piano_urbanistico.jpg'
+  },
+  {
+      'name' : 'Campidoglio Chandigarh',
+      'author' : 'Le Corbusier e P. Jeanneret',
+      'date' : '1950',
+      'place' : 'Chandigarh - Punjab - India',
+      'context' : 'Movimento Moderno - Costruzione capitali',
+      'image' : 'https://www.archweb.it/dwg/arch_arredi_famosi/le_corbusier/chandigarh/chandigarh_master_plan.jpg'
+  },
+  {
+      'name' : 'Palazzo del Parlamento Chandigarh',
+      'author' : 'Le Corbusier e P. Jeanneret',
+      'date' : '1961',
+      'place' : 'Chandigarh - Punjab - India',
+      'context' : 'Movimento Moderno - Costruzione capitali',
+      'image' : 'https://www.archweb.it/dwg/arch_arredi_famosi/le_corbusier/chandigarh_assemblea/photos/Chandigarh_Assembly_2.jpg'
+  },
+  {
+      'name' : 'Piano per Brasilia',
+      'author' : 'O. Niemeyer e L. Costa',
+      'date' : '1957',
+      'place' : 'Brasilia - Brasile',
+      'context' : 'Movimento Moderno - Costruzione capitali',
+      'image' : 'https://annaluciani.com/wp-content/uploads/2019/01/foto0004.jpg?w=470'
+  },
+  {
+      'name' : 'Palazzo del Parlamento',
+      'author' : 'O. Niemeyer e L. Costa',
+      'date' : '1957',
+      'place' : 'Brasilia - Brasile',
+      'context' : 'Movimento Moderno - Costruzione capitali',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Brasilia_Congresso_Nacional_05_2007_221.jpg/260px-Brasilia_Congresso_Nacional_05_2007_221.jpg'
+  },
+  {
+      'name' : 'Cattedrale',
+      'author' : 'O. Niemeyer e L. Costa',
+      'date' : '1958',
+      'place' : 'Brasilia - Brasile',
+      'context' : 'Movimento Moderno - Costruzione capitali',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Brasilia_Catedral_08_2005_03.jpg'
+  },
+  {
+      'name' : 'Palazzo comunale',
+      'author' : 'A. Aalto',
+      'date' : '1949',
+      'place' : 'Saynatsalo',
+      'context' : 'Architettura organica',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SaynatsaloTownHall4.jpg/1200px-SaynatsaloTownHall4.jpg'
+  },
+  {
+      'name' : 'Palazzo comunale',
+      'author' : 'A. Aalto',
+      'date' : '1961',
+      'place' : 'Seynajoki',
+      'context' : 'Architettura organica',
+      'image' : 'https://c8.alamy.com/compit/2phwge2/municipio-di-alvar-aalto-nella-citta-finlandese-sein-joki-2phwge2.jpg'
+  },
+  {
+      'name' : 'Istituto superiore di pedagogia',
+      'author' : 'A. Aalto',
+      'date' : '1950',
+      'place' : 'Jyvaskyla - Finlandia',
+      'context' : 'Architettura organica',
+      'image' : 'https://areeweb.polito.it/didattica/01CMD/catalog/028/2/013.jpg'
+  },
+  {
+      'name' : 'Politecnico di Otaniemi',
+      'author' : 'A. Aalto',
+      'date' : '1950',
+      'place' : 'Helsinki - Finlandia',
+      'context' : 'Architettura organica',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Helsinki_University_of_Technology_auditorium.jpg/260px-Helsinki_University_of_Technology_auditorium.jpg'
+  },
+  {
+      'name' : 'Chiesa',
+      'author' : 'A. Aalto',
+      'date' : '1966',
+      'place' : 'Riola di Vergato - Bologna',
+      'context' : 'Architettura organica',
+      'image' : 'https://www.rocchetta-mattei.it/wp-content/uploads/2017/10/interni_Santa_Maria_assunta-1024x768.jpg'
+  },
+  {
+      'name' : 'Casa della cultura',
+      'author' : 'A. Aalto',
+      'date' : '1955',
+      'place' : 'Helsinki - Finlandia',
+      'context' : 'Architettura organica',
+      'image' : 'https://images.adsttc.com/media/images/56de/355d/e58e/ce68/3d00/0087/medium_jpg/21025736026_a553963cb7_o.jpg?1457403221'
+  },
+  {
+      'name' : 'Palazzo dei congressi e sala per concerti',
+      'author' : 'A. Aalto',
+      'date' : '1962',
+      'place' : 'Helsinki - Finlandia',
+      'context' : 'Architettura organica',
+      'image' : 'https://c8.alamy.com/compit/2de3p37/centro-congressi-ed-eventi-finlandia-hall-progettato-dall-architetto-alvar-aalto-sulla-baia-di-toolonlahti-a-helsinki-finlandia-2de3p37.jpg'
+  },
+  {
+      'name' : 'Opera House',
+      'author' : 'J. Hutzon e A. Jacobsen',
+      'date' : '1957',
+      'place' : 'Sydney - Australia',
+      'context' : 'Influenza architettura scandinava Alvar Aalto',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/4/40/Sydney_Opera_House_Sails.jpg'
+  },
+];
+
 const questions = [
   ...cap3,
   ...cap2,
-  ...cap4
+  ...cap4,
+
+
+  ...cap12
 ]
 /*[
   {
