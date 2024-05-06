@@ -2736,10 +2736,350 @@ const cap6 = [
   },
 ];
 
+const cap5 = [
+  {
+      'name' : 'Boutique Fouquet',
+      'author' : 'Mucha',
+      'date' : '1901',
+      'place' : 'Parigi',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.muchafoundation.org/media//w620h560/3D-works/Boutique_Fouquet_installation_carnavalet.jpg'
+  },
+  {
+      'name' : 'Salone sorelle Floge',
+      'author' : 'Hoffmann e Moser',
+      'date' : '1904',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_CykO2nrxsjg2Se56hGOsKZ_YSCc0MvKALGV9jLaSIWZLDWmI6y4zmpxwdPAkeYJREo&usqp=CAU'
+  },
+  {
+      'name' : 'American Bar',
+      'author' : 'Loos',
+      'date' : '1908',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://chapter.digital/wp-content/uploads/2022/06/Chapter-Magazine-EinzigeBarDerStadt-LoosBar-8.jpg'
+  },
+  {
+      'name' : 'Antigua casa Figuras',
+      'author' : 'Guell',
+      'date' : '1902',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://fastly.4sqi.net/img/general/600x600/151688833_ezGQAXLiVf1M2vOahTmpkantAGqx30AtGekGPzI5FO0.jpg'
+  },
+  {
+      'name' : 'Casa Hankar',
+      'author' : 'Paul Hankar',
+      'date' : '1893',
+      'place' : 'Bruxelles',
+      'context' : 'Art Nouveau',
+      'image' : 'https://cdn.loquis.com/prod/loquis/pictures/01da031e-3a63-4043-9939-7f5fae779fb1-720.jpg'
+  },
+  {
+      'name' : 'Maison Tassel',
+      'author' : 'Victor Horta',
+      'date' : '1893',
+      'place' : 'Bruxelles',
+      'context' : 'Art Nouveau',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Victor_Horta_Hotel_Tassel.JPG/1200px-Victor_Horta_Hotel_Tassel.JPG'
+  },
+  {
+      'name' : 'interno Maison Tassel',
+      'author' : 'Victor Horta',
+      'date' : '1893',
+      'place' : 'Bruxelles',
+      'context' : 'Art Nouveau',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tassel_House_stairway.JPG/800px-Tassel_House_stairway.JPG'
+  },
+  {
+      'name' : 'interno Maison Tassel',
+      'author' : 'Victor Horta',
+      'date' : '1893',
+      'place' : 'Bruxelles',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.roberto-crosio.net/1_citta/libert4.jpg'
+  },
+  {
+      'name' : 'Auditorium Maison du Peuple',
+      'author' : 'Victor Horta',
+      'date' : '1896',
+      'place' : 'Bruxelles',
+      'context' : 'Art Nouveau',
+      'image' : 'https://i.pinimg.com/originals/16/f7/81/16f7815814e64be75e36836046b72d0e.jpg'
+  },
+  {
+      'name' : 'Abito signora Van de Velde',
+      'author' : 'Henry Van de Velde',
+      'date' : '1901',
+      'place' : '',
+      'context' : 'Art Nouveau',
+      'image' : 'https://archinghomestager.wordpress.com/wp-content/uploads/2016/11/van-de-velde-02.jpg?w=445'
+  },
+  {
+      'name' : 'Scuola di arti e mestieri',
+      'author' : 'Henry Van de Velde',
+      'date' : '1901',
+      'place' : 'Weimar',
+      'context' : 'Art Nouveau',
+      'image' : 'https://i0.wp.com/www.dbnl.org/tekst/veld006gesc01_01/veld006gesc01ill84.gif?w=1120&ssl=1'
+  },
+  {
+      'name' : 'Stazioni della metropolitana',
+      'author' : 'Guimard',
+      'date' : '1900',
+      'place' : 'Parigi',
+      'context' : 'Art Nouveau',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/5/5f/La_station_art_nouveau_de_la_porte_Dauphine_%28Hector_Guimard%29.jpg'
+  },
+  {
+      'name' : 'Panchina',
+      'author' : 'Guimard',
+      'date' : '1907',
+      'place' : 'Parigi',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.antikeo.com/uploads/images/img_x1920_58638_658e70ddabe573-32557163-76049984.jpg'
+  },
+  {
+      'name' : 'Leslie Castle',
+      'author' : '',
+      'date' : '1660',
+      'place' : 'Scozia',
+      'context' : 'Architettura baronale',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Leslie_Castle%2C_Geograph.jpg'
+  },
+  {
+      'name' : 'School of Arts',
+      'author' : 'C. Mackintosh',
+      'date' : '1897-1909',
+      'place' : 'Glasgow',
+      'context' : 'Art Nouveau scozzese',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Wfm_glasgow_school_of_art.jpg/800px-Wfm_glasgow_school_of_art.jpg'
+  },
+  {
+      'name' : 'Biblioteca School of Arts',
+      'author' : 'C. Mackintosh',
+      'date' : '1909',
+      'place' : 'Glasgow',
+      'context' : 'Art Nouveau scozzese',
+      'image' : 'https://i.pinimg.com/736x/09/eb/73/09eb73e2607eaab9e5c8bf0eb79fba3d.jpg'
+  },
+  {
+      'name' : 'Decorazione School of Arts',
+      'author' : 'Sorelle Macdonald',
+      'date' : '1909',
+      'place' : 'Glasgow',
+      'context' : 'Art Nouveau scozzese',
+      'image' : 'https://www.curtainscurtainscurtains.co.uk/images/library/mack%20rose%20glass.jpg'
+  },
+  {
+      'name' : 'Hill House',
+      'author' : 'C. Mackintosh',
+      'date' : '1902',
+      'place' : 'Scozia',
+      'context' : 'Art Nouveau scozzese',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HillHouse.jpg/310px-HillHouse.jpg'
+  },
+  {
+      'name' : 'Willow Tea Rooms',
+      'author' : 'C. Mackintosh',
+      'date' : '1903',
+      'place' : 'Glasgow',
+      'context' : 'Art Nouveau scozzese',
+      'image' : 'https://media.tacdn.com/media/attractions-splice-spp-674x446/07/1a/f6/08.jpg'
+  },
+  {
+      'name' : 'Pavillon per la metro',
+      'author' : 'Otoo Wagner',
+      'date' : '1895',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.wien.info/resource/image/291304/19x10/1200/630/64b9a7d649a60ce7db004d70c711c69c/91F25E1431CA7626ADFF285FEE1936D9/50239-otto-wagner-stadtbahn-pavillon.jpg'
+  },
+  {
+      'name' : 'Padiglione secessione viennese',
+      'author' : 'J.M. Olbrich',
+      'date' : '1897',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.wien.info/resource/image/419414/19x10/1200/630/2c0323a65d2ad481e9897fd0b6ba554f/42B0D9C095A83F731BC976CB612EA131/secession.jpg'
+  },
+  {
+      'name' : 'Fregio di Beethoven nella casa della secessione',
+      'author' : 'G. Klimt',
+      'date' : '1902',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.raiscuola.rai.it/dl/img/2023/08/08/1691500208823_17.%20forze%20ostili%20fregio.jpg'
+  },
+  {
+      'name' : 'Studio di Freud',
+      'author' : '',
+      'date' : '1900',
+      'place' : 'Austria',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.aboutartonline.com/wp-content/uploads/2020/07/12-Lo-studio-di-Freud.-Foto-di-E.-Engelman-del-1938.jpg'
+  },
+  {
+      'name' : 'Manifesto secessione viennese',
+      'author' : 'G. Klimt',
+      'date' : '1898',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqnswd196eRH0oJM9WTf_z0LhA7ynqXRtiOh7Ul_n2Pg&s'
+  },
+  {
+      'name' : 'Majolikahaus',
+      'author' : 'Otto Wagner',
+      'date' : '1898',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.visitingvienna.com/wp-content/uploads/2022/02/majolikahaus.jpg'
+  },
+  {
+      'name' : 'Cassa di risparmio postale',
+      'author' : 'Otto Wagner',
+      'date' : '1904',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.viaggio-in-austria.it/postsparkasse03.jpg'
+  },
+  {
+      'name' : 'Palais Stoclet',
+      'author' : 'Hoffmann',
+      'date' : '1905',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6QnDrHN9aQh_Oa1No_GXnpkzgoaoqRV7eP0jASpVut8Cu4zBv81WwxqPk9BeHj6b7_fBS-9P61hLC1PSZAg_aoCWJUMN3tq3R_MYV7IKAZNGkL437s_czdLHRFrpixOIL9MRRdujZpXk/s1600/01+Stoclet_Palace_Hoffmann_Brussels_1911.jpg'
+  },
+  {
+      'name' : 'Interno Palais Stoclet',
+      'author' : 'Hoffmann',
+      'date' : '1905',
+      'place' : 'Vienna',
+      'context' : 'Art Nouveau',
+      'image' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6QnDrHN9aQh_Oa1No_GXnpkzgoaoqRV7eP0jASpVut8Cu4zBv81WwxqPk9BeHj6b7_fBS-9P61hLC1PSZAg_aoCWJUMN3tq3R_MYV7IKAZNGkL437s_czdLHRFrpixOIL9MRRdujZpXk/s1600/01+Stoclet_Palace_Hoffmann_Brussels_1911.jpg'
+  },
+  {
+      'name' : 'Ospedale Sant Pau',
+      'author' : 'Domenech i Montaner',
+      'date' : '1905',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/e/e3/20061225-Barcelona_Hospital_de_la_Santa_Creu_i_Sant_Pau_MQ.jpg'
+  },
+  {
+      'name' : 'Caves Codorniu',
+      'author' : 'Puig i Cadafalch',
+      'date' : '1895',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://upload.wikimedia.org/wikipedia/commons/2/25/Caves_Codorniu_%28Sant_Sadurní_d%27Anoia%29_-_18.jpg'
+  },
+  {
+      'name' : 'Palau della musica catalana',
+      'author' : 'Domenech i Montaner',
+      'date' : '1905',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://visitarebarcellona.com/wp-content/uploads/2016/12/palau-musica-barcellona.jpg'
+  },
+  {
+      'name' : 'Interno Palau Guell',
+      'author' : 'Antoni Gaudì',
+      'date' : '1886',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.barcellonafacile.it/wp-content/uploads/salone-palazzo-guell.jpeg'
+  },
+  {
+      'name' : 'Parc Guell',
+      'author' : 'Antoni Gaudì',
+      'date' : '1900',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.vivagaudi.org/wp-content/gallery/parc-guell/parc-güell008.jpg'
+  },
+  {
+      'name' : 'Casa Milà',
+      'author' : 'Antoni Gaudì',
+      'date' : '1906',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.casabatllo.es/wp-content/uploads/2023/01/la-pedrera.jpg'
+  },
+  {
+      'name' : 'Casa Battlò',
+      'author' : 'Antoni Gaudì',
+      'date' : '1904',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://img.static-kl.com/images/media/6C6AB52B-633D-4641-898CA35F820B6287?w=960&aspect_ratio=2:1'
+  },
+  {
+      'name' : 'Sagrada Familia',
+      'author' : 'Antoni Gaudì',
+      'date' : '1883',
+      'place' : 'Barcellona',
+      'context' : 'Art Nouveau',
+      'image' : 'https://cdn.getyourguide.com/img/tour/448290a706817776.jpeg/146.jpg'
+  },
+  {
+      'name' : 'Villa Iiea',
+      'author' : 'Ernesto Basile',
+      'date' : '1900',
+      'place' : 'Palermo',
+      'context' : 'Art Nouveau',
+      'image' : 'https://turismo.cittametropolitana.pa.it/wp-content/uploads/sites/3/2022/11/VillaIgea2.jpg'
+  },
+  {
+      'name' : 'Fregio interno Villa Igiea',
+      'author' : 'Bergler',
+      'date' : '1900',
+      'place' : 'Palermo',
+      'context' : 'Art Nouveau',
+      'image' : 'https://hips.hearstapps.com/hmg-prod/images/04-18-rfh-villa-igiea-9644-jg-sep-19-jpg-copia-1634631528.jpg'
+  },
+  {
+      'name' : 'Palazzo Castiglioni',
+      'author' : 'Sommaruga',
+      'date' : '1900',
+      'place' : 'Milano',
+      'context' : 'Art Nouveau',
+      'image' : 'https://www.milanosecrets.it/wp-content/Portals/0/News_cultura_eventi_foto/cultura_palazzo_castiglioni_foto.jpg'
+  },
+  {
+      'name' : 'Manifesto prima esposizione internazionale arti decorativa moderna',
+      'author' : 'Bistolfi',
+      'date' : '1902',
+      'place' : 'Torino',
+      'context' : 'Art Nouveau',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShbI6w5UVzqaLCF1-_AT6kbrLrHnRk-88QDZgSl4nnYspSIYsCJJfeCf1HxhJX8fvceAA&usqp=CAU'
+  },
+  {
+      'name' : 'Ingresso prima esposizione internazionale arti decorativa moderna',
+      'author' : 'D Aronco',
+      'date' : '1902',
+      'place' : 'Torino',
+      'context' : 'Art Nouveau',
+      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKlCSQhS3dalMtDlFtik6QW0ScmlFBaLbAXA&usqp=CAU'
+  },
+  {
+      'name' : 'Villino Scott',
+      'author' : 'Fenoglio',
+      'date' : '1902',
+      'place' : 'Torino',
+      'context' : 'Art Nouveau',
+      'image' : 'https://luoghidicelluloide.wordpress.com/wp-content/uploads/2016/10/scott.jpg?w=1200'
+  },
+];
+
 const questions = [
   ...cap3,
   ...cap2,
   ...cap4,
+  ...cap5,
   ...cap6,
   ...cap7,
   ...cap8,
