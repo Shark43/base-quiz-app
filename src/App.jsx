@@ -3181,6 +3181,7 @@ function App() {
         {componenteAttivo === 2 && (
           <div>
             <Typography variant="h3">Tempo scaduto!</Typography>
+            <Typography variant="h4">Prossima domanda è la {currentQuestion + 1}</Typography>
             <Button variant="contained" onClick={handleNextQuestion}>
               Prossima domanda
             </Button>
