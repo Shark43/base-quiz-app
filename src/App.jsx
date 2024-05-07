@@ -3076,6 +3076,473 @@ const cap5 = [
   },
 ];
 
+const cap13 = [
+    {
+        'name' : 'Yale University Art Gallery',
+        'author' : 'L. Kahn',
+        'date' : '1950',
+        'place' : 'Connecticut - USA',
+        'context' : 'Crisi del Movimento Moderno - Ritorno alla monumentalità anche nel moderno',
+        'image' : 'https://images.adsttc.com/media/images/5b02/0929/f197/cc16/1500/0229/newsletter/Yale_University_Art_Gallery_7604__New_Haven__2015.jpg?1526860067'
+    },
+    {
+        'name' : 'Richards Medical Research Laboratories',
+        'author' : 'L. Kahn',
+        'date' : '1957',
+        'place' : 'Filadelfia - USA',
+        'context' : 'Crisi del Movimento Moderno - Ritorno alla monumentalità anche nel moderno',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Richards_Labs_Penn.JPG'
+    },
+    {
+        'name' : 'Salk Institute',
+        'author' : 'L. Kahn',
+        'date' : '1959',
+        'place' : 'California - USA',
+        'context' : 'Crisi del Movimento Moderno - Ritorno alla monumentalità anche nel moderno',
+        'image' : 'https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/a4/f0.jpg'
+    },
+    {
+        'name' : 'Salk Institute',
+        'author' : 'L. Kahn',
+        'date' : '1959',
+        'place' : 'California - USA',
+        'context' : 'Crisi del Movimento Moderno - Ritorno alla monumentalità anche nel moderno',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Salk_Institute1.jpg'
+    },
+    {
+        'name' : 'Parlamento',
+        'author' : 'L. Kahn',
+        'date' : '1962',
+        'place' : 'Dacca - Bangladesh',
+        'context' : 'Crisi del Movimento Moderno - Ritorno alla monumentalità anche nel moderno',
+        'image' : 'https://www.repstatic.it/video/photo/2011/11/27/80724-thumb-full-louis_kahn.jpg'
+    },
+    {
+        'name' : 'Istituto indiano di amministrazione',
+        'author' : 'L. Kahn',
+        'date' : '1963',
+        'place' : 'Ahmedabad - India',
+        'context' : 'Crisi del Movimento Moderno - Ritorno alla monumentalità anche nel moderno',
+        'image' : 'https://images.adsttc.com/media/images/5037/e64a/28ba/0d59/9b00/033e/newsletter/stringio.jpg?1414231168'
+    },
+    {
+        'name' : 'Kimbell Art Museum',
+        'author' : 'L. Kahn',
+        'date' : '1962',
+        'place' : 'Texas - USA',
+        'context' : 'Crisi del Movimento Moderno - Ritorno alla monumentalità anche nel moderno',
+        'image' : 'https://magazine.texasarchitects.org/wp-content/uploads/sites/4/2022/08/IMG_2470b.jpg'
+    },
+    {
+        'name' : 'Vanna Venturi House',
+        'author' : 'R. Venturi',
+        'date' : '1959',
+        'place' : 'Philadelphia - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://images.adsttc.com/media/images/5037/e07f/28ba/0d59/9b00/016c/newsletter/stringio.jpg?1414230673'
+    },
+    {
+        'name' : 'Guild House',
+        'author' : 'R. Venturi',
+        'date' : '1960',
+        'place' : 'Philadelphia - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/4/41/Venturi_Guild_House.jpg'
+    },
+    {
+        'name' : 'Learning from Las Vegas',
+        'author' : 'R. Venturi',
+        'date' : '1966',
+        'place' : 'Las Vegas - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnyG-WDj-d1aD41yNpRosC9V0_RxQpqjXnng&usqp=CAU'
+    },
+    {
+        'name' : 'Learning from Las Vegas',
+        'author' : 'R. Venturi',
+        'date' : '1966',
+        'place' : 'Las Vegas - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://www.artribune.com/wp-content/uploads/2014/02/Robert-Venturi-Sketch-Learning-from-Las-Vegas-480x620.jpg'
+    },
+    {
+        'name' : 'Episcopal Academy Chapel',
+        'author' : 'R. Venturi',
+        'date' : '2008',
+        'place' : 'Pensylvania - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://patch.com/img/cdn/users/112995/2012/03/raw/1314c88b728e6ec54762ffc0ce4e57be.jpg'
+    },
+    {
+        'name' : 'Piazza d Italia',
+        'author' : 'C. Moore',
+        'date' : '1975',
+        'place' : 'New Orleans - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/2/21/PiazzaDItalia1990.jpg'
+    },
+    {
+        'name' : 'Edificio dei servizi municipali',
+        'author' : 'M. Graves',
+        'date' : '1980',
+        'place' : 'Portland - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://www.educazionetecnicaonline.com/wp-content/uploads/2014/02/Grattacieli11.jpg'
+    },
+    {
+        'name' : 'Humana Building',
+        'author' : 'M. Graves',
+        'date' : '1982',
+        'place' : 'Louisville - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://i.pinimg.com/originals/31/02/4b/31024b382293efad8a48b8e7f7c5bf8c.jpg'
+    },
+    {
+        'name' : 'Walt Disney Dolphin Resort',
+        'author' : 'M. Graves',
+        'date' : '1987',
+        'place' : 'Orlando - Florida - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://images.trvl-media.com/lodging/1000000/20000/12800/12710/111f91e5.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill'
+    },
+    {
+        'name' : 'Sedia Milano',
+        'author' : 'Aldo Rossi produzione Molteni',
+        'date' : '1987',
+        'place' : 'Italia',
+        'context' : 'Postmodern',
+        'image' : 'https://i0.wp.com/www.sbandiu.com/wp-content/uploads/2017/08/big_363099_7567_web_1987_milano-01_aldo-rossi_hr1.jpg?fit=960%2C763&ssl=1'
+    },
+    {
+        'name' : 'Interno di un interno',
+        'author' : 'A. Mendini',
+        'date' : '1991',
+        'place' : 'Milano',
+        'context' : 'Postmodern',
+        'image' : 'https://www.dilmos.it/wp-content/uploads/freshizer/ccc005bbbaf011950a8a664fa99b6a2e_interno_di_un_interno1991_img07-1440-c-72.jpg'
+    },
+    {
+        'name' : 'Caffettiera Conica',
+        'author' : 'Aldo Rossi produzione Alessi',
+        'date' : '1984',
+        'place' : 'Italia',
+        'context' : 'Postmodern',
+        'image' : 'https://alessi.com/cdn/shop/products/01_90002.jpg?v=1680531313'
+    },
+    {
+        'name' : 'Interno abitazione Memphis',
+        'author' : 'e. Sottsass e Memphis',
+        'date' : '1980 circa',
+        'place' : 'Italia',
+        'context' : 'Postmodern',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Memphis-Milano_Movement.jpg/220px-Memphis-Milano_Movement.jpg'
+    },
+    {
+        'name' : 'Cavatappi Anna G',
+        'author' : 'A. Mendini produzione Alessi',
+        'date' : '1994',
+        'place' : 'Italia',
+        'context' : 'Postmodern',
+        'image' : 'https://socialdesignmagazine.com/mag/products-selection/wp-content/uploads/sites/2/2020/12/Cavatappi-Anna-G-Turchese-ALESSI-Alessandro-Mendini.jpg'
+    },
+    {
+        'name' : 'Grattacielo At&T',
+        'author' : 'P. Johnson e J. Burgee',
+        'date' : '1979',
+        'place' : 'New York',
+        'context' : 'Postmodern',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Sony_Building_by_David_Shankbone_crop.jpg/640px-Sony_Building_by_David_Shankbone_crop.jpg'
+    },
+    {
+        'name' : 'Nuova Galleria Nazionale',
+        'author' : 'J. Stirling',
+        'date' : '1977',
+        'place' : 'Stoccarda',
+        'context' : 'Postmodern in Europa - Tradizionalià smontata',
+        'image' : 'https://i.pinimg.com/736x/97/4f/e1/974fe1c7b40e8b36c92d947555e62ebb.jpg'
+    },
+    {
+        'name' : 'Centro di ricerca per le scienze sociali',
+        'author' : 'J. Stirling',
+        'date' : '1984',
+        'place' : 'Berlino',
+        'context' : 'Postmodern in Europa - Tradizionalià smontata',
+        'image' : 'https://www.cca.qc.ca/img-collection/YmC9g1aF-B26KoBKxEzeACrUPrQ=/500x402/428311.jpg'
+    },
+    {
+        'name' : 'Museo di Architettura',
+        'author' : 'O.M. Ungers',
+        'date' : '1979',
+        'place' : 'Francoforte',
+        'context' : 'Postmodern in Europa',
+        'image' : 'https://www.wearch.eu/wp-content/uploads/2019/07/Museo-img8.jpg'
+    },
+    {
+        'name' : 'Istituto per le ricerche polari e marine',
+        'author' : 'O.M. Ungers',
+        'date' : '1979',
+        'place' : 'Germania',
+        'context' : 'Postmodern in Europa',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Alfred-Wegener-Institut_mit_Schornstein_Otto_Hahn.jpg/220px-Alfred-Wegener-Institut_mit_Schornstein_Otto_Hahn.jpg'
+    },
+    {
+        'name' : 'Complesso residenziale Tiegarten planimetria',
+        'author' : 'R. Krier',
+        'date' : '1983',
+        'place' : 'Germania',
+        'context' : 'Postmodern in Europa - Tradizionalità + funzionalismo + decorazioni ironiche',
+        'image' : 'https://lh3.googleusercontent.com/proxy/315ed3DOqdOTEKR_6lOgNA4EatiK4m2U4zBsZAs5n5MElldKmOwi29ZKVE0Su7e5nQS0aUbbAtHjQ4SKjeXFK1M8-5VJLPWggZPS4iwKIQg'
+    },
+    {
+        'name' : 'Complesso residenziale Tiegarten',
+        'author' : 'R. Krier',
+        'date' : '1983',
+        'place' : 'Germania',
+        'context' : 'Postmodern in Europa - Tradizionalità + funzionalismo + decorazioni ironiche',
+        'image' : 'https://lh3.googleusercontent.com/proxy/QbA3L80bMShbcxwyZHA5WLqgWhV0sXxKpjSnHPyNlbZE1qMTqB1e44jsq_O4zjobyl3q36rjYFJABzf8UAic9ykCK-FyMdzA2D-44IUmEn8'
+    },
+    {
+        'name' : 'Quartiere residenziale',
+        'author' : 'R. Krier',
+        'date' : '1995',
+        'place' : 'Alessandria',
+        'context' : 'Postmodern in Europa',
+        'image' : 'https://i.pinimg.com/736x/7c/fa/d4/7cfad477d21b571d9211dd00528728b4.jpg'
+    },
+    {
+        'name' : 'Museo d arte moderna',
+        'author' : 'H. Hollein',
+        'date' : '1987',
+        'place' : 'Francoforte',
+        'context' : 'Postmodern in Europa',
+        'image' : 'https://blog.casanoi.it/wp-content/uploads/2016/04/Museo-arte-moderna-Francoforte-Meno.jpg'
+    },
+    {
+        'name' : 'Edificio commerciale Haas',
+        'author' : 'H. Hollein',
+        'date' : '1990',
+        'place' : 'Vienna',
+        'context' : 'Postmodern in Europa',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wien-Haas-Haus.jpg/1200px-Wien-Haas-Haus.jpg'
+    },
+    {
+        'name' : 'Quartiere residenziale Les espace d Abraxas',
+        'author' : 'R. Bofill',
+        'date' : '1978',
+        'place' : 'Parigi',
+        'context' : 'Postmodern',
+        'image' : 'https://images.adsttc.com/media/images/57d7/fe98/e58e/ce89/7b00/0295/large_jpg/Les_Espaces_Abraxas_Marne_la_Valle_Paris_France_Ricardo_Bofill_Taller_Arquitectura_07.jpg?1473773191'
+    },
+    {
+        'name' : 'Quartiere di alloggi popolari Hautes-Formes',
+        'author' : 'C. de Potzamparc',
+        'date' : '1975',
+        'place' : 'Parigi',
+        'context' : 'Postmodern',
+        'image' : 'https://images.adsttc.com/media/images/595f/1886/b22e/38a7/c200/0095/large_jpg/197500-HAUTES-FORMES_(c)Nicolas_BOREL_201203141218_p106.jpg?1499404394'
+    },
+    {
+        'name' : 'Torre Daimler Chrysler',
+        'author' : 'H. Kollhoff',
+        'date' : '1997',
+        'place' : 'Potsdamer Platz - Berlino',
+        'context' : 'Postmodern',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Potsdamer_Platz_-_Kollhoff-Tower%2C_20060603.jpg'
+    },
+    {
+        'name' : 'Centro artigianale Balerna',
+        'author' : 'M. Botta',
+        'date' : '1977',
+        'place' : 'Svizzera',
+        'context' : 'Postmodern',
+        'image' : 'https://i.pinimg.com/550x/f1/35/f7/f135f7334351d31b0156b75eab87f097.jpg'
+    },
+    {
+        'name' : 'Casa Medici Stabio',
+        'author' : 'M. Botta',
+        'date' : '1977',
+        'place' : 'Svizzera',
+        'context' : 'Postmodern',
+        'image' : 'https://www.archweb.it/dwg/arch_arredi_famosi/mario_botta/casa_medici/photos/casa_medici_botta_ph_1.jpg'
+    },
+    {
+        'name' : 'Blocco per uffici Ransila I',
+        'author' : 'M. Botta',
+        'date' : '1981',
+        'place' : 'Lugano',
+        'context' : 'Postmodern',
+        'image' : 'https://media-cdn.tripadvisor.com/media/photo-s/07/7e/8e/d7/edificio-ransila-i.jpg'
+    },
+    {
+        'name' : 'Museo d arte moderna',
+        'author' : 'M. Botta',
+        'date' : '1989',
+        'place' : 'San Francisco - USA',
+        'context' : 'Postmodern',
+        'image' : 'https://www.botta.ch/Data/Images/botta/38/2%20MOMA%20foto%20Pino%20Musi.jpg'
+    },
+    {
+        'name' : 'Cattedrale della resurrezione',
+        'author' : 'M. Botta',
+        'date' : '1992',
+        'place' : 'Évry - Francia',
+        'context' : 'Postmodern',
+        'image' : 'https://cathedrale-evry.net/images/exterie1.jpg'
+    },
+    {
+        'name' : 'Chiesa di San Giovanni a Mogno',
+        'author' : 'M. Botta',
+        'date' : '1996',
+        'place' : 'Svizzera',
+        'context' : 'Postmodern',
+        'image' : 'https://media-cdn.tripadvisor.com/media/photo-s/1b/48/90/18/eglise-san-giovanni-battista.jpg'
+    },
+    {
+        'name' : 'Complesso diocesano e Chiesa del Santo Volto',
+        'author' : 'M. Botta',
+        'date' : '2004',
+        'place' : 'Torino',
+        'context' : 'Postmodern',
+        'image' : 'https://www.archimagazine.com/abosantovolto1_max.jpg'
+    },
+    {
+        'name' : 'Bottega di Erasmo',
+        'author' : 'R. Gabetti e A. Oreglia d Isola',
+        'date' : '1953',
+        'place' : 'Torino',
+        'context' : 'Neoliberty',
+        'image' : 'https://live.staticflickr.com/1755/40898726220_36b026abd0_c.jpg'
+    },
+    {
+        'name' : 'Reparto taglieria pelo della fabbrica Borsalino',
+        'author' : 'I. Gardella',
+        'date' : '1945',
+        'place' : 'Alessandria',
+        'context' : 'Neoliberty',
+        'image' : 'https://www.alexala.it/v2/public/foto/2023/11/05/220411/647_taglieria-del-pelo-fabbrica-borsalino.jpg'
+    },
+    {
+        'name' : 'Uffici Inail',
+        'author' : 'G. Samonà e E. Trincanato',
+        'date' : '1950',
+        'place' : 'Venezia',
+        'context' : 'Neoliberty',
+        'image' : 'https://i.pinimg.com/originals/20/d3/a5/20d3a51c13d76091ecabd15f982b980d.jpg'
+    },
+    {
+        'name' : 'Museo di Castelvecchio',
+        'author' : 'C. Scarpa',
+        'date' : '1957',
+        'place' : 'Verona',
+        'context' : 'Neoliberty',
+        'image' : 'https://www.objectsmag.it/wp-content/uploads/2019/09/museo-castelvecchio-9-840x472.jpg'
+    },
+    {
+        'name' : 'Tomba Brion',
+        'author' : 'C. Scarpa',
+        'date' : '1969',
+        'place' : 'Treviso',
+        'context' : 'Neoliberty',
+        'image' : 'https://i0.wp.com/designtellers.it/wp-content/uploads/2023/02/Brion_01.jpeg?ssl=1'
+    },
+    {
+        'name' : 'Borsa merci',
+        'author' : 'G. Michelucci',
+        'date' : '1964',
+        'place' : 'Pistoia',
+        'context' : 'Neoliberty',
+        'image' : 'https://lh3.googleusercontent.com/proxy/l0bruYfJ2N7J4Bjuit2FMvp495yGSACMty-Jh7JaaEjNWUod-fHdDnGHqU0JjODZWhKawrZUBQxYeMqeDgWKoowPGroH0HbIDnfL6bFcFBx8VXqi5pMFsMC_gzdDt7pL2qsbz_s6kA'
+    },
+    {
+        'name' : 'Casa dell Obelisco',
+        'author' : 'S. Jaretti e E. Luzi',
+        'date' : '1954',
+        'place' : 'Torino',
+        'context' : 'Neoliberty',
+        'image' : 'https://www.museotorino.it/images/6c/eb/7d/1f/6ceb7d1fe0f64b879e9881578ccf8112-1.jpg?VSCL=100'
+    },
+    {
+        'name' : 'Condominio corso Unione Sovietica',
+        'author' : 'P. Derossi',
+        'date' : '1962',
+        'place' : 'Torino',
+        'context' : 'Neoliberty',
+        'image' : 'https://lh3.googleusercontent.com/proxy/gBGvL7Fp3icAYztjE6dMUj6C5GpZw2AzNgh1QbG9AhI8Z-aefa4hUSUjQKaHyzFxttMsAILr9BQ8dawoicqM64dbzzNJnw6ga-HUKYM2WWkQOOU6PDHwtN_u4V8'
+    },
+    {
+        'name' : 'Torre Velasca',
+        'author' : 'BBPR',
+        'date' : '1950',
+        'place' : 'Milano',
+        'context' : 'Neoliberty',
+        'image' : 'https://atlantearchitetturacontemporanea.cultura.gov.it/wp-content/uploads/E09-01_BBPR_Velasca.jpg'
+    },
+    {
+        'name' : 'Grattacielo Pirelli',
+        'author' : 'G. Ponti e P.L Nervi',
+        'date' : '1955',
+        'place' : 'Milano',
+        'context' : 'Neoliberty',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Mi-Milano-1959-Grattacielo-Pirelli-01.jpg/1200px-Mi-Milano-1959-Grattacielo-Pirelli-01.jpg'
+    },
+    {
+        'name' : 'Complesso residenziale Monte Amiata al Gallaratese',
+        'author' : 'C. Aymonino',
+        'date' : '1967',
+        'place' : 'Milano',
+        'context' : 'Movimento Moderno',
+        'image' : 'https://www.lombardiabeniculturali.it/img_db/bcac/p4010/1/l/SC_AC_p4010-00539_IMG-0000045615.jpg'
+    },
+    {
+        'name' : 'Complesso residenziale Monte Amiata al Gallaratese',
+        'author' : 'A. Rossi',
+        'date' : '1967',
+        'place' : 'Milano',
+        'context' : 'Recupero tradizione',
+        'image' : 'https://oami.s3.eu-south-1.amazonaws.com/legacy/cache/arch_img_big/media/resize/copy/190/20131021180052-_DSC0013m.jpg'
+    },
+    {
+        'name' : 'Teatro del mondo',
+        'author' : 'A. Rossi',
+        'date' : '1979',
+        'place' : 'Venezia',
+        'context' : 'Biennale di Venezia 1980',
+        'image' : 'https://www.archweb.com/wp-content/uploads/2023/07/Teatro_del_Mondo_Venezia-512x426.jpg'
+    },
+    {
+        'name' : 'Complesso per uffici Casa Aurora',
+        'author' : 'A. Rossi',
+        'date' : '1984',
+        'place' : 'Venezia',
+        'context' : 'Biennale di Venezia 1980',
+        'image' : 'https://www.museotorino.it/images/96/ea/fe/0f/96eafe0fc71e48209dcbd53e737fb5bf-3.jpg'
+    },
+    {
+        'name' : 'Blocco sulla Kochstrasse',
+        'author' : 'A. Rossi',
+        'date' : '1981',
+        'place' : 'Berlino',
+        'context' : 'Recupero tradizione berlinese',
+        'image' : 'https://c8.alamy.com/compit/pcydp1/berlino-aldo-rossi-kochstr-iba-pcydp1.jpg'
+    },
+    {
+        'name' : 'Ricostruzione di un isolato in Shutzenstrasse',
+        'author' : 'A. Rossi',
+        'date' : '1992',
+        'place' : 'Berlino',
+        'context' : '',
+        'image' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Quartier_Schützenstrasse_Berlin.jpg/1200px-Quartier_Schützenstrasse_Berlin.jpg'
+    },
+    {
+        'name' : 'Blocco per uffici',
+        'author' : 'G. Grassi',
+        'date' : '1993',
+        'place' : 'Potsdamer Platz - Berlino',
+        'context' : '',
+        'image' : 'https://casabellaweb.eu/wp-content/uploads/2015/03/Giorgio-Grassi-Potsdamer-Platz-Berlino-imagecredits-Andreas-Steinhoff.jpg'
+    },
+];
+
 const totalQuestions = [
   ...cap3,
   ...cap2,
@@ -3087,7 +3554,8 @@ const totalQuestions = [
   ...cap9,
   ...cap10,
   ...cap11,
-  ...cap12
+  ...cap12,
+  ...cap13
 ]
 /*[
   {
