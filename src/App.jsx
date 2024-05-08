@@ -3589,7 +3589,7 @@ function getRandomElements(arr, n) {
   return selectedElements;
 }
 
-const TIMER_TIME = 100;
+const TIMER_TIME = 1000000000;
 const MAX_QUESTION = 8;
 
 function App() {
