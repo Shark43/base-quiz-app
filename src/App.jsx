@@ -3589,8 +3589,8 @@ function getRandomElements(arr, n) {
   return selectedElements;
 }
 
-const TIMER_TIME = 90;
-const MAX_QUESTION = 10;
+const TIMER_TIME = 100;
+const MAX_QUESTION = 8;
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -3636,7 +3636,7 @@ function App() {
           <div>
             <Typography variant="h4">Domanda: {currentQuestion + 1} di {MAX_QUESTION}</Typography>
             <Typography variant="h4">{tempoRimanente} secondi rimanenti</Typography>
-            <LinearWithValueLabel progress={100 - tempoRimanente * 10}/>
+            <LinearWithValueLabel progress={100 - tempoRimanente}/>
             {questions[currentQuestion] && (
               <QuestionContainer
                 question={questions[currentQuestion]}
