@@ -11,7 +11,7 @@ function CorrectAnswers({ correctAnswers, userAnswers }) {
           <ListItemText
             primary={
               <span style={{ color: correctAnswers.name !== userAnswers.name ? 'red' : 'black' }}>
-                Nome: {correctAnswers.name}
+                Nome: {userAnswers.name} - {correctAnswers.name}
               </span>
             }
           />
@@ -20,7 +20,7 @@ function CorrectAnswers({ correctAnswers, userAnswers }) {
           <ListItemText
             primary={
               <span style={{ color: correctAnswers.author !== userAnswers.author ? 'red' : 'black' }}>
-                Autore: {correctAnswers.author}
+                Autore: {userAnswers.author} - {correctAnswers.author}
               </span>
             }
           />
@@ -29,7 +29,7 @@ function CorrectAnswers({ correctAnswers, userAnswers }) {
           <ListItemText
             primary={
               <span style={{ color: correctAnswers.date !== userAnswers.date ? 'red' : 'black' }}>
-                Data: {correctAnswers.date}
+                Data: {userAnswers.date} - {correctAnswers.date}
               </span>
             }
           />
@@ -38,7 +38,7 @@ function CorrectAnswers({ correctAnswers, userAnswers }) {
           <ListItemText
             primary={
               <span style={{ color: correctAnswers.context !== userAnswers.context ? 'red' : 'black' }}>
-                Contesto: {correctAnswers.context}
+                Contesto: {userAnswers.context} - {correctAnswers.context}
               </span>
             }
           />
@@ -47,7 +47,7 @@ function CorrectAnswers({ correctAnswers, userAnswers }) {
           <ListItemText
             primary={
               <span style={{ color: correctAnswers.place !== userAnswers.place ? 'red' : 'black' }}>
-                Posto: {correctAnswers.place}
+                Posto:  {userAnswers.place} - {correctAnswers.place}
               </span>
             }
           />

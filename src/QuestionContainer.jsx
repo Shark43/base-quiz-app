@@ -3,7 +3,7 @@ import { Grid, Paper, Avatar } from '@material-ui/core';
 import AnswerInput from './AnswerInput';
 import ImageComponent from './ImageComponent';
 
-function QuestionContainer({ question, onNextQuestion }) {
+function QuestionContainer({ question, userAnswers, setUserAnswers }) {
   return (
     <Paper elevation={3} sx={{ padding: '20px' }}>
       <Grid container spacing={2}>
@@ -13,7 +13,7 @@ function QuestionContainer({ question, onNextQuestion }) {
             altText='Opera darte'
           />
         </Grid>
-        <AnswerInput question={question} onNextQuestion={onNextQuestion} />
+        <AnswerInput userAnswers={userAnswers} setUserAnswers={setUserAnswers} question={question}  />
       </Grid>
     </Paper>
   );

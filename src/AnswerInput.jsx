@@ -4,16 +4,7 @@ import { Grid, TextField, Button, Box} from '@material-ui/core';
 import CorrectAnswers from './CorrectAnswers';
 
 
-function AnswerInput({ question, onNextQuestion }) {
-  const [userAnswers, setUserAnswers] = useState({
-    name: '',
-    author: '',
-    date: '',
-    context: '',
-    place: ''
-  });
-
-  const [showCorrectAnswers, setShowCorrectAnswers] = useState(false);
+function AnswerInput({ question, userAnswers, setUserAnswers }) {
 
   const handleAnswerChange = (event, questionKey) => {
     const updatedAnswers = { ...userAnswers };
@@ -21,16 +12,11 @@ function AnswerInput({ question, onNextQuestion }) {
     setUserAnswers(updatedAnswers);
   };
 
-  const handleVerifyAnswer = () => {
-    console.log(question)
-    // Add logic to handle answer verification (optional)
-    setShowCorrectAnswers(true);
-  };
 
   return (
     <Grid container spacing={2}>
       <Grid item xs={12}>
-        {!showCorrectAnswers && <Box sx={{ width: '75%', margin: 'auto' }}>
+        <Box sx={{ width: '75%', margin: 'auto' }}>
           <Grid item xs={12}>
               <TextField
                 fullWidth
@@ -71,28 +57,7 @@ function AnswerInput({ question, onNextQuestion }) {
               onChange={(event) => handleAnswerChange(event, 'place')}
             />
           </Grid>
-        </Box>}
-      </Grid>
-      <Grid item xs={12}>
-        {showCorrectAnswers && (
-          <CorrectAnswers correctAnswers={question} userAnswers={userAnswers}/>
-        )}
-      </Grid>
-      
-
-      <Grid item xs={12}>
-        <div className="button-container">
-          <Button variant="contained" color="primary" onClick={handleVerifyAnswer}>
-            Verifica Risposta
-          </Button>
-          {showCorrectAnswers && <Button variant="contained" color="secondary" onClick={() => {
-              setShowCorrectAnswers(false);
-              onNextQuestion();
-            }
-          }>
-            Prossimo Quiz
-          </Button>}
-        </div>
+        </Box>
       </Grid>
     </Grid>
   );
