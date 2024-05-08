@@ -3590,7 +3590,7 @@ function getRandomElements(arr, n) {
   return selectedElements;
 }
 
-const TIMER_TIME = 5;
+const TIMER_TIME = 100;
 const MAX_QUESTION = 8;
 
 function App() {
@@ -3675,7 +3675,7 @@ function App() {
         {componenteAttivo === 2 && (
             <Box>
                 <CorrectAnswers correctAnswers={questions[currentQuestion]} userAnswers={userAnswers}/>
-                <Button variant="contained" onClick={handleNextQuestion}>
+                <Button variant="contained" color="primary" onClick={handleNextQuestion}>
                     Prossima domanda
                 </Button>
             </Box>
